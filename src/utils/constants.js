@@ -1,0 +1,15 @@
+export const WOMENS_HAIRCUTS = 'Women\'s Haircuts';
+export const BOYS_HAIRCUTS = 'Boy\'s Haircuts';
+export const CHILDRENS_HAIRCUTS = 'Children\'s Haircuts';
+export const HAIR_DESCRIPTION = 'Our team strives to keep up with the latest looks and styles. If its a trendy new style or a classic look, our salon offers something for everyone. We can customize your look with cut, color or both. Pureology, Redken, Moroccanoil and brazilian blowout are the brands we offer and recommend.  If it is more length and fullness you are looking for, we are certified in hair extensions.';
+export const FACIALS_DESCRIPTION = 'We offer a variety of facials and waxing.  Our facials are relaxing, but also very beneficial for your skin.  Each facial is customized for your skin type.  We will address your specific concerns about your skin.  A wide range of waxing services are available.';
+export const MAKEUP_DESCRIPTION = 'Clinical Care and Mirabella are the products used and recommended in our salon.';
+export const STARTING_AT_16 = 'starting at $16';
+export const STARTING_AT_18 = 'starting at $18';
+export const STARTING_AT_30 = 'starting at $30';
+export const STARTING_AT_50 = 'starting at $50';
+export const STARTING_AT_55 = 'starting at $55';
+export const STARTING_AT_60 = 'starting at $60';
+export const HAIR = 'Hair';
+export const FACIALS_AND_WAXING = 'Facials & Waxing';
+export const SKINCARE_AND_MAKEUP = 'Skincare & Makeup';

@@ -1,0 +1,116 @@
+body {
+  background: url('./images/home/new_new_background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  font-family: 'Merriweather' !important;
+}
+.navbar {
+  margin-bottom: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+.navbar-brand {
+  font-family: 'Ministry';
+  font-size: 24px;
+  color: #000 !important;
+}
+.navbar-nav {
+  color: #000 !important;
+}
+.navbar .navbar-nav .open .dropdown-menu > .active > a, .navbar .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar .navbar-nav .open .dropdown-menu > .active > a:focus {
+  background-color:teal;
+  background-image: none;
+  background-repeat: no-repeat;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #000;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #000;
+}
+.test-nav-class {
+  color: #000;
+}
+.white-bg{
+  background:#ffffff;
+}
+.navbar-nav.navbar-right:last-child {
+  margin-right: 0;
+}
+.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-right: 0px;
+  max-width: 100%;
+}
+.img.header-img {
+  display: block;
+  margin: auto;
+  width: 100%;
+  max-width: 100%;
+}
+.img-carousel {
+  width: 100%;
+  height: 100%;
+}
+.img-circle {
+  max-width: 250px;
+}
+.thumbnail {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+.thumbnail img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.media-object {
+  width: 100px;
+  height: 100px;
+}
+.map {
+  width: 100%;
+  height: 400px;
+}
+.div-centered {
+  margin: 0 auto;
+  max-width: 800px;
+}
+.services-centered {
+  margin: 0 auto;
+  max-width: 600px;
+}
+.table-colored {
+  background-color: black;
+  color: white;
+}
+.table-borderless > tbody > tr > td,
+.table-borderless > tbody > tr > th,
+.table-borderless > tfoot > tr > td,
+.table-borderless > tfoot > tr > th,
+.table-borderless > thead > tr > td,
+.table-borderless > thead > tr > th {
+    border: none;
+}
+.header-container {
+  margin-top: 15px;
+}
+.p-centered {
+  text-align: center;
+}
+@font-face {
+  font-family: 'Ministry';
+  src: url(Ministry_Script.ttf);
+}
+.title-border {
+  border-bottom-style: solid;
+  border-width: 2px;
+  border-bottom-width: 2px;
+}
