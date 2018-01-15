@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "bootstrap": "^3.3.7",
+    "classnames": "^2.2.5",
     "gh-pages": "^1.0.0",
     "google-map-react": "^0.24.0",
     "react": "^15.6.1",
