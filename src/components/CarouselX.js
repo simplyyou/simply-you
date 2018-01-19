@@ -10,6 +10,8 @@ import EndTableDecor from '../images/home/EndTableDecor.jpg';
 import PillowandDecanter from '../images/home/PillowandDecanter.jpg';
 import Purse3b from '../images/home/Purse3b.jpg';
 import Follows from '../images/home/Follows.jpeg';
+import Vase2 from '../images/home/Vase2.jpg';
+import TanPurse from '../images/home/TanPurse.jpg';
 
 class CarouselX extends Component {
 
@@ -21,7 +23,13 @@ class CarouselX extends Component {
             <img className="img-carousel" alt="Table Decor" src={EndTableDecor}/>
           </Carousel.Item>
           <Carousel.Item>
+            <img className="img-carousel" alt="Purse" src={TanPurse}/>
+          </Carousel.Item>
+          <Carousel.Item>
             <img className="img-carousel" alt="Pillows" src={PillowandDecanter}/>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="img-carousel" alt="Vase" src={Vase2}/>
           </Carousel.Item>
           <Carousel.Item>
             <img className="img-carousel" alt="Sign" src={Follows}/>

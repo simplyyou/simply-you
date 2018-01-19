@@ -48,6 +48,9 @@ import SimplySign from '../images/gifts/SimplySign.jpg';
 import Watch2 from '../images/gifts/Watch2.jpg';
 import Winemakingmeawesome from '../images/gifts/Winemakingmeawesome.jpg';
 import PlaidScarf from '../images/gifts/PlaidScarf.jpg';
+import JarLantern from '../images/gifts/JarLantern.jpg';
+import EndWine from '../images/gifts/EndWine.jpg';
+import BagPurse from '../images/gifts/BagPurse.jpg';
 
 class Gifts extends Component {
   render() {
@@ -66,6 +69,9 @@ class Gifts extends Component {
           <Row>
             <ImageWrapper image={dog_frame} description={"242x200"} />
             <ImageWrapper image={deliver} description={"242x200"} />
+            <ImageWrapper image={BagPurse} description={"242x200"} />
+            <ImageWrapper image={EndWine} description={"242x200"} />
+            <ImageWrapper image={JarLantern} description={"242x200"} />
             <ImageWrapper image={PlaidScarf} description={"242x200"} />
             <ImageWrapper image={BaconSign} description={"242x200"} />
             <ImageWrapper image={Purse2} description={"242x200"} />

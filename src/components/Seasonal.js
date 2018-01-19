@@ -3,6 +3,7 @@ import {Helmet} from 'react-helmet';
 import { Grid, Row } from 'react-bootstrap';
 import ImageWrapper from './ImageWrapper';
 import deliver from '../images/interiors/deliver_items.jpg';
+import Froggy from '../images/seasonal/Froggy.jpg';
 
 class Seasonal extends Component {
   render() {
@@ -19,6 +20,7 @@ class Seasonal extends Component {
         </div>
         <Grid className="container-fluid">
           <Row>
+          <ImageWrapper image={Froggy} description={"Interiors"} />
           <ImageWrapper image={deliver} description={"Interiors"} />
           </Row>
         </Grid>
