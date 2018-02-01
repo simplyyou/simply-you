@@ -12,6 +12,11 @@ import Purse3b from '../images/home/Purse3b.jpg';
 import Follows from '../images/home/Follows.jpeg';
 import Vase2 from '../images/home/Vase2.jpg';
 import TanPurse from '../images/home/TanPurse.jpg';
+import boi from '../images/home/boi.jpg';
+import Setter from '../images/home/Setter.jpg';
+import Clockwork from '../images/home/Clockwork.jpg';
+import Blacker from '../images/home/Blacker.jpg';
+import Shelver from '../images/home/Shelver.jpg';
 
 class CarouselX extends Component {
 
@@ -19,6 +24,30 @@ class CarouselX extends Component {
     return (
       <div>
         <Carousel>
+          <Carousel.Item>
+            <img className="img-carousel" alt="Table Decor" src={EndTableDecor}/>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="img-carousel" alt="Gourmet Items" src={boi}/>
+            <Carousel.Caption>
+              <h3>Gourmet items that are great for entertaining.</h3>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="img-carousel" alt="Table Decor" src={Setter}/>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="img-carousel" alt="Clocks" src={Clockwork}/>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="img-carousel" alt="Lamp" src={Blacker}/>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="img-carousel" alt="Gourmet Items" src={Shelver}/>
+            <Carousel.Caption>
+              <h3>Come in and see our new selection of purses and jewelry.</h3>
+            </Carousel.Caption>
+          </Carousel.Item>
           <Carousel.Item>
             <img className="img-carousel" alt="Table Decor" src={EndTableDecor}/>
           </Carousel.Item>

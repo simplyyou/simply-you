@@ -4,6 +4,14 @@ import { Grid, Row } from 'react-bootstrap';
 import ImageWrapper from './ImageWrapper';
 import deliver from '../images/interiors/deliver_items.jpg';
 import Froggy from '../images/seasonal/Froggy.jpg';
+import Cage from '../images/seasonal/Cage.jpg';
+import Cupboard from '../images/seasonal/Cupboard.jpg';
+import Cupboard2 from '../images/seasonal/Cupboard2.jpg';
+import Valentines from '../images/seasonal/Valentines.jpg';
+import Chicken from '../images/gifts/Chicken.jpg';
+import Shelves from '../images/gifts/Shelves.jpg';
+import Salsa from '../images/gifts/Salsa.jpg';
+import Setting from '../images/gifts/Setting.jpg';
 
 class Seasonal extends Component {
   render() {
@@ -20,8 +28,16 @@ class Seasonal extends Component {
         </div>
         <Grid className="container-fluid">
           <Row>
-          <ImageWrapper image={Froggy} description={"Interiors"} />
+          <ImageWrapper image={Valentines} description={"Interiors"} />
           <ImageWrapper image={deliver} description={"Interiors"} />
+          <ImageWrapper image={Cupboard2} description={"Interiors"} />
+          <ImageWrapper image={Salsa} description={"Interiors"} />
+          <ImageWrapper image={Chicken} description={"Interiors"} />
+          <ImageWrapper image={Froggy} description={"Interiors"} />
+          <ImageWrapper image={Cage} description={"Interiors"} />
+          <ImageWrapper image={Cupboard} description={"Interiors"} />
+          <ImageWrapper image={Shelves} description={"Interiors"} />
+          <ImageWrapper image={Setting} description={"Interiors"} />
           </Row>
         </Grid>
       </div>

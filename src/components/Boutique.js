@@ -18,6 +18,12 @@ import FriendsTowel from '../images/interiors/FriendsTowel.jpeg';
 import JarLantern from '../images/gifts/JarLantern.jpg';
 import EndWine from '../images/gifts/EndWine.jpg';
 import BagPurse from '../images/gifts/BagPurse.jpg';
+import Ropebags from '../images/gifts/Ropebags.jpg';
+import Jewels from '../images/gifts/Jewels.jpg';
+import Jewel from '../images/gifts/Jewel.jpg';
+import Neckshelf from '../images/gifts/Neckshelf.jpg';
+import Pearls from '../images/gifts/Pearls.jpg';
+import Lotsabags from '../images/gifts/Lotsabags.jpg';
 
 class Boutique extends Component {
   render() {
@@ -36,6 +42,11 @@ class Boutique extends Component {
           <Row>
             <ImageWrapper image={tea_towel_happily} description={"242x200"} />
             <ImageWrapper image={deliver} description={"242x200"} />
+            <ImageWrapper image={Jewel} description={"242x200"} />
+            <ImageWrapper image={Jewels} description={"242x200"} />
+            <ImageWrapper image={Pearls} description={"242x200"} />
+            <ImageWrapper image={Neckshelf} description={"242x200"} />
+            <ImageWrapper image={Ropebags} description={"242x200"} />
             <ImageWrapper image={BagPurse} description={"242x200"} />
             <ImageWrapper image={EndWine} description={"242x200"} />
             <ImageWrapper image={JarLantern} description={"242x200"} />
@@ -50,6 +61,7 @@ class Boutique extends Component {
             <ImageWrapper image={initial_necklaces} description={"242x200"} />
             <ImageWrapper image={tea_towel_mon_tues} description={"242x200"} />
             <ImageWrapper image={frames} description={"242x200"} />
+            <ImageWrapper image={Lotsabags} description={"242x200"} />
           </Row>
         </Grid>
       </div>
