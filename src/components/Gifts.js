@@ -51,6 +51,17 @@ import PlaidScarf from '../images/gifts/PlaidScarf.jpg';
 import JarLantern from '../images/gifts/JarLantern.jpg';
 import EndWine from '../images/gifts/EndWine.jpg';
 import BagPurse from '../images/gifts/BagPurse.jpg';
+import Cupboard from '../images/seasonal/Cupboard.jpg';
+import Jewels from '../images/gifts/Jewels.jpg';
+import Jewel from '../images/gifts/Jewel.jpg';
+import Neckshelf from '../images/gifts/Neckshelf.jpg';
+import Pearls from '../images/gifts/Pearls.jpg';
+import Chicken from '../images/gifts/Chicken.jpg';
+import Shelves from '../images/gifts/Shelves.jpg';
+import Salsa from '../images/gifts/Salsa.jpg';
+import Setting from '../images/gifts/Setting.jpg';
+import Blackshade from '../images/gifts/Blackshade.jpg';
+import Lotsabags from '../images/gifts/Lotsabags.jpg';
 
 class Gifts extends Component {
   render() {
@@ -69,6 +80,13 @@ class Gifts extends Component {
           <Row>
             <ImageWrapper image={dog_frame} description={"242x200"} />
             <ImageWrapper image={deliver} description={"242x200"} />
+            <ImageWrapper image={Salsa} description={"242x200"} />
+            <ImageWrapper image={Chicken} description={"242x200"} />
+            <ImageWrapper image={Jewel} description={"242x200"} />
+            <ImageWrapper image={Jewels} description={"242x200"} />
+            <ImageWrapper image={Pearls} description={"242x200"} />
+            <ImageWrapper image={Neckshelf} description={"242x200"} />
+            <ImageWrapper image={Cupboard} description={"242x200"} />
             <ImageWrapper image={BagPurse} description={"242x200"} />
             <ImageWrapper image={EndWine} description={"242x200"} />
             <ImageWrapper image={JarLantern} description={"242x200"} />
@@ -116,6 +134,10 @@ class Gifts extends Component {
             <ImageWrapper image={CuttingBoard1} description={"242x200"} />
             <ImageWrapper image={cuttingboard3} description={"242x200"} />
             <ImageWrapper image={Bracelets} description={"242x200"} />
+            <ImageWrapper image={Lotsabags} description={"242x200"} />
+            <ImageWrapper image={Blackshade} description={"242x200"} />
+            <ImageWrapper image={Setting} description={"242x200"} />
+            <ImageWrapper image={Shelves} description={"242x200"} />
           </Row>
         </Grid>
       </div>

@@ -60,6 +60,9 @@ import BlackLamp from '../images/interiors/BlackLamp.jpeg';
 import Follow from '../images/interiors/Follow.jpeg';
 import Lanterny from '../images/interiors/Lanterny.jpeg';
 import GlassLamp from '../images/interiors/GlassLamp.jpeg';
+import Clockworth from '../images/interiors/Clockworth.jpg';
+import Crusty from '../images/interiors/Crusty.jpg';
+import Blackshade from '../images/gifts/Blackshade.jpg';
 
 class Interiors extends Component {
   render() {
@@ -78,6 +81,7 @@ class Interiors extends Component {
           <Row>
             <ImageWrapper image={wine_bottles} description={"Interiors"} />
             <ImageWrapper image={deliver} description={"Interiors"} />
+            <ImageWrapper image={Crusty} description={"Interiors"} />
             <ImageWrapper image={Rooster} description={"Interiors"} />
             <ImageWrapper image={WhiteLamp} description={"Interiors"} />
             <ImageWrapper image={Lanterny} description={"Interiors"} />
@@ -134,6 +138,8 @@ class Interiors extends Component {
             <ImageWrapper image={CuttingBoard1} description={"Interiors"} />
             <ImageWrapper image={Clock2} description={"Interiors"} />
             <ImageWrapper image={Follow} description={"Interiors"} />
+            <ImageWrapper image={Blackshade} description={"Interiors"} />
+            <ImageWrapper image={Clockworth} description={"Interiors"} />
           </Row>
         </Grid>
       </div>
