@@ -63,6 +63,57 @@ import GlassLamp from '../images/interiors/GlassLamp.jpeg';
 import Clockworth from '../images/interiors/Clockworth.jpg';
 import Crusty from '../images/interiors/Crusty.jpg';
 import Blackshade from '../images/gifts/Blackshade.jpg';
+import crochet from '../images/interiors/crochet.jpg';
+import heartstone from '../images/interiors/heartstone.jpg';
+import morelights from '../images/interiors/morelights.jpg';
+import ropeholes from '../images/interiors/ropeholes.jpg';
+import ropeshelf from '../images/interiors/ropeshelf.jpg';
+import smalllight from '../images/interiors/smalllight.jpg';
+import stuff from '../images/interiors/stuff.jpg';
+import art from '../images/interiors/art.jpg';
+import biglight from '../images/interiors/biglight.jpg';
+import bowbox from '../images/interiors/bowbox.jpg';
+import crochetballs from '../images/interiors/crochetballs.jpg';
+import crochetbasket from '../images/interiors/crochetbasket.jpg';
+import crochetstuff from '../images/interiors/crochetstuff.jpg';
+import glassstuff from '../images/interiors/glassstuff.jpg';
+import lakestuff from '../images/interiors/lakestuff.jpg';
+import lightstuff from '../images/interiors/lightstuff.jpg';
+import shotglass from '../images/interiors/shotglass.jpg';
+import watercans from '../images/interiors/watercans.jpg';
+import ballcage from '../images/interiors/ballcage.jpg';
+import clocksome from '../images/interiors/clocksome.jpg';
+import fakeplant from '../images/interiors/fakeplant.jpg';
+import jugowater from '../images/interiors/jugowater.jpg';
+import open from '../images/interiors/open.jpg';
+import plantsfake from '../images/interiors/plantsfake.jpg';
+import quack from '../images/interiors/quack.jpg';
+import someclock from '../images/interiors/someclock.jpg';
+import tweety from '../images/interiors/tweety.jpg';
+import waterjug from '../images/interiors/waterjug.jpg';
+import flowerbasket from '../images/interiors/flowerbasket.jpg';
+import faucet from '../images/interiors/faucet.jpg';
+import flowerbox from '../images/interiors/flowerbox.jpg';
+import flowerpot from '../images/interiors/flowerpot.jpg';
+import mirrorcorner from '../images/interiors/mirrorcorner.jpg';
+import shortcan from '../images/interiors/shortcan.jpg';
+import barrellid from '../images/interiors/barrellid.jpg';
+import greenflower from '../images/interiors/greenflower.jpg';
+import strawberry from '../images/interiors/strawberry.jpg';
+import winedispenser from '../images/interiors/winedispenser.jpg';
+import metalflower from '../images/interiors/winedispenser.jpg';
+import prix from '../images/interiors/prix.jpg';
+import wallcan from '../images/interiors/wallcan.jpg';
+import canwall from '../images/interiors/canwall.jpg';
+import woodenbox from '../images/interiors/woodenbox.jpg';
+import gives from '../images/interiors/gives.jpg';
+import greenmirror from '../images/interiors/greenmirror.jpg';
+import jellywall from '../images/interiors/jellywall.jpg';
+import jellycart from '../images/interiors/jellycart.jpg';
+import shoreshells from '../images/interiors/shoreshells.jpg';
+import birdcage from '../images/interiors/birdcage.jpg';
+import vasebox from '../images/interiors/vasebox.jpg';
+import gold from '../images/interiors/gold.jpg';
 
 class Interiors extends Component {
   render() {
@@ -75,12 +126,36 @@ class Interiors extends Component {
         </Helmet>
         <div className="title-border">
         <h2 className="p-centered">Simply You Interiors</h2>
-        <p className="p-centered">Simply You is situated on the historic park square in Paola. We get new items in weekly so you are sure to find something unique and different each time you visit. Our home interiors collection includes items for each room in your home. We carry items that are timeless as well as some of the latest trends. We are excited to be able to share our love for decorating with you.</p>
+        <p className="p-centered">Simply You is situated on the historic park square in Paola. We get new items in weekly so you are sure to find something unique and different each time you visit. Our home interiors collection includes items for each room in your home. We carry items that are timeless as well as some of the latest trends. Check out our new items for Spring!</p>
         </div>
         <Grid className="container-fluid">
           <Row>
-            <ImageWrapper image={wine_bottles} description={"Interiors"} />
+            <ImageWrapper image={jellywall} description={"Interiors"} />
             <ImageWrapper image={deliver} description={"Interiors"} />
+            <ImageWrapper image={plantsfake} description={"Interiors"} />
+            <ImageWrapper image={birdcage} description={"Interiors"} />
+            <ImageWrapper image={vasebox} description={"Interiors"} />
+            <ImageWrapper image={wine_bottles} description={"Interiors"} />
+            <ImageWrapper image={prix} description={"Interiors"} />
+            <ImageWrapper image={wallcan} description={"Interiors"} />
+            <ImageWrapper image={canwall} description={"Interiors"} />
+            <ImageWrapper image={woodenbox} description={"Interiors"} />
+            <ImageWrapper image={gives} description={"Interiors"} />
+            <ImageWrapper image={greenmirror} description={"Interiors"} />
+            <ImageWrapper image={flowerbasket} description={"Interiors"} />
+            <ImageWrapper image={faucet} description={"Interiors"} />
+            <ImageWrapper image={ballcage} description={"Interiors"} />
+            <ImageWrapper image={quack} description={"Interiors"} />
+            <ImageWrapper image={open} description={"Interiors"} />
+            <ImageWrapper image={shoreshells} description={"Interiors"} />
+            <ImageWrapper image={tweety} description={"Interiors"} />
+            <ImageWrapper image={heartstone} description={"Interiors"} />
+            <ImageWrapper image={crochet} description={"Interiors"} />
+            <ImageWrapper image={morelights} description={"Interiors"} />
+            <ImageWrapper image={ropeholes} description={"Interiors"} />
+            <ImageWrapper image={ropeshelf} description={"Interiors"} />
+            <ImageWrapper image={smalllight} description={"Interiors"} />
+            <ImageWrapper image={stuff} description={"Interiors"} />
             <ImageWrapper image={Crusty} description={"Interiors"} />
             <ImageWrapper image={Rooster} description={"Interiors"} />
             <ImageWrapper image={WhiteLamp} description={"Interiors"} />
@@ -110,6 +185,33 @@ class Interiors extends Component {
             <ImageWrapper image={clock} description={"Interiors"} />
             <ImageWrapper image={wood_and_metal_sign} description={"Interiors"} />
             <ImageWrapper image={canister} description={"Interiors"} />
+            <ImageWrapper image={art} description={"Interiors"} />
+            <ImageWrapper image={metalflower} description={"Interiors"} />
+            <ImageWrapper image={gold} description={"Interiors"} />
+            <ImageWrapper image={mirrorcorner} description={"Interiors"} />
+            <ImageWrapper image={barrellid} description={"Interiors"} />
+            <ImageWrapper image={greenflower} description={"Interiors"} />
+            <ImageWrapper image={strawberry} description={"Interiors"} />
+            <ImageWrapper image={winedispenser} description={"Interiors"} />
+            <ImageWrapper image={shortcan} description={"Interiors"} />
+            <ImageWrapper image={flowerpot} description={"Interiors"} />
+            <ImageWrapper image={flowerbox} description={"Interiors"} />
+            <ImageWrapper image={jellycart} description={"Interiors"} />
+            <ImageWrapper image={biglight} description={"Interiors"} />
+            <ImageWrapper image={bowbox} description={"Interiors"} />
+            <ImageWrapper image={crochetballs} description={"Interiors"} />
+            <ImageWrapper image={crochetbasket} description={"Interiors"} />
+            <ImageWrapper image={crochetstuff} description={"Interiors"} />
+            <ImageWrapper image={glassstuff} description={"Interiors"} />
+            <ImageWrapper image={lakestuff} description={"Interiors"} />
+            <ImageWrapper image={lightstuff} description={"Interiors"} />
+            <ImageWrapper image={watercans} description={"Interiors"} />
+            <ImageWrapper image={shotglass} description={"Interiors"} />
+            <ImageWrapper image={clocksome} description={"Interiors"} />
+            <ImageWrapper image={jugowater} description={"Interiors"} />
+            <ImageWrapper image={fakeplant} description={"Interiors"} />
+            <ImageWrapper image={someclock} description={"Interiors"} />
+            <ImageWrapper image={waterjug} description={"Interiors"} />
             <ImageWrapper image={interior20} description={"Interiors"} />
             <ImageWrapper image={lantern4} description={"Interiors"} />
             <ImageWrapper image={lantern5} description={"Interiors"} />

@@ -57,11 +57,12 @@ import Jewel from '../images/gifts/Jewel.jpg';
 import Neckshelf from '../images/gifts/Neckshelf.jpg';
 import Pearls from '../images/gifts/Pearls.jpg';
 import Chicken from '../images/gifts/Chicken.jpg';
-import Shelves from '../images/gifts/Shelves.jpg';
 import Salsa from '../images/gifts/Salsa.jpg';
 import Setting from '../images/gifts/Setting.jpg';
 import Blackshade from '../images/gifts/Blackshade.jpg';
 import Lotsabags from '../images/gifts/Lotsabags.jpg';
+import jellywall from '../images/interiors/jellywall.jpg';
+import jellycart from '../images/interiors/jellycart.jpg';
 
 class Gifts extends Component {
   render() {
@@ -80,6 +81,7 @@ class Gifts extends Component {
           <Row>
             <ImageWrapper image={dog_frame} description={"242x200"} />
             <ImageWrapper image={deliver} description={"242x200"} />
+            <ImageWrapper image={jellywall} description={"242x200"} />
             <ImageWrapper image={Salsa} description={"242x200"} />
             <ImageWrapper image={Chicken} description={"242x200"} />
             <ImageWrapper image={Jewel} description={"242x200"} />
@@ -137,7 +139,7 @@ class Gifts extends Component {
             <ImageWrapper image={Lotsabags} description={"242x200"} />
             <ImageWrapper image={Blackshade} description={"242x200"} />
             <ImageWrapper image={Setting} description={"242x200"} />
-            <ImageWrapper image={Shelves} description={"242x200"} />
+            <ImageWrapper image={jellycart} description={"242x200"} />
           </Row>
         </Grid>
       </div>
