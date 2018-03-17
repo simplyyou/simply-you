@@ -14,3 +14,7 @@
 npm install
 npm start
 ```
+
+## Deployment
+
+Deployment is automated with [Netlify](https://app.netlify.com/sites/simplyyou/overview) whenever master is updated.
