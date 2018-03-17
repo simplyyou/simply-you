@@ -4,9 +4,10 @@ import { Grid, Row } from 'react-bootstrap';
 import ImageWrapper from './ImageWrapper';
 import sign1 from '../images/signs/welcome_metal_sign1.JPG';
 import sign2 from '../images/signs/welcome_metal_sign2.JPG';
-import journey from '../images/signs/metal sign journey.JPG';
+import journey from '../images/signs/journey.jpg';
 import metal3 from '../images/signs/Metalsign3.jpg';
 import metal4 from '../images/signs/Metalsign4.jpg';
+import firepit from '../images/signs/firepit.jpg';
 
 class Signs extends Component {
   render() {
@@ -24,6 +25,7 @@ class Signs extends Component {
         <Grid className="container-fluid">
           <Row>
             <ImageWrapper image={sign1} description={"242x200"} />
+            <ImageWrapper image={firepit} description={"242x200"} />
             <ImageWrapper image={sign2} description={"242x200"} />
             <ImageWrapper image={journey} description={"242x200"} />
             <ImageWrapper image={metal3} description={"242x200"} />

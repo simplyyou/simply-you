@@ -2,21 +2,18 @@ import React, { Component } from 'react';
 import { Carousel } from 'react-bootstrap';
 import candle_holders from '../images/home/candle_holders.jpg';
 import lantern5 from '../images/home/lantern5.jpg';
-import lantern6 from '../images/home/lantern6.jpg';
-import tins1 from '../images/home/tins1.jpg';
-import vase from '../images/home/vase.jpg';
-import frame from '../images/home/frame.jpg';
 import EndTableDecor from '../images/home/EndTableDecor.jpg';
-import PillowandDecanter from '../images/home/PillowandDecanter.jpg';
-import Purse3b from '../images/home/Purse3b.jpg';
 import Follows from '../images/home/Follows.jpeg';
 import Vase2 from '../images/home/Vase2.jpg';
 import TanPurse from '../images/home/TanPurse.jpg';
-import boi from '../images/home/boi.jpg';
 import Setter from '../images/home/Setter.jpg';
 import Clockwork from '../images/home/Clockwork.jpg';
 import Blacker from '../images/home/Blacker.jpg';
 import Shelver from '../images/home/Shelver.jpg';
+import easterbunny from '../images/home/easterbunny.jpg';
+import shabang from '../images/home/shabang.jpg';
+import brightest from '../images/home/brightest.jpg';
+import SpringPurses from '../images/home/SpringPurses.jpg';
 
 class CarouselX extends Component {
 
@@ -25,13 +22,16 @@ class CarouselX extends Component {
       <div>
         <Carousel>
           <Carousel.Item>
-            <img className="img-carousel" alt="Table Decor" src={EndTableDecor}/>
+            <img className="img-carousel" alt="Table Decor" src={easterbunny}/>
           </Carousel.Item>
           <Carousel.Item>
-            <img className="img-carousel" alt="Gourmet Items" src={boi}/>
+            <img className="img-carousel" alt="Table Decor" src={shabang}/>
             <Carousel.Caption>
-              <h3>Gourmet items that are great for entertaining.</h3>
+              <h3>Check out our new Spring items!</h3>
             </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="img-carousel" alt="Table Decor" src={brightest}/>
           </Carousel.Item>
           <Carousel.Item>
             <img className="img-carousel" alt="Table Decor" src={Setter}/>
@@ -55,16 +55,13 @@ class CarouselX extends Component {
             <img className="img-carousel" alt="Purse" src={TanPurse}/>
           </Carousel.Item>
           <Carousel.Item>
-            <img className="img-carousel" alt="Pillows" src={PillowandDecanter}/>
-          </Carousel.Item>
-          <Carousel.Item>
             <img className="img-carousel" alt="Vase" src={Vase2}/>
           </Carousel.Item>
           <Carousel.Item>
             <img className="img-carousel" alt="Sign" src={Follows}/>
           </Carousel.Item>
           <Carousel.Item>
-            <img className="img-carousel" alt="Purse" src={Purse3b}/>
+            <img className="img-carousel" alt="Purse" src={SpringPurses}/>
           </Carousel.Item>
           <Carousel.Item>
             <img className="img-carousel" alt="Candle Holders" src={candle_holders}/>
@@ -74,21 +71,6 @@ class CarouselX extends Component {
             <Carousel.Caption>
               <h3>We have a variety of lanterns that are perfect for decorating inside and out.</h3>
             </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="img-carousel" alt="Lantern" src={lantern6}/>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="img-carousel" alt="Tins" src={tins1}/>
-            <Carousel.Caption>
-              <h3>Rustic tins add character to any surface.</h3>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="img-carousel" alt="Vase" src={vase}/>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="img-carousel" alt="Frame" src={frame}/>
           </Carousel.Item>
         </Carousel>
       </div>

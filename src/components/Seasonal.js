@@ -7,11 +7,12 @@ import Froggy from '../images/seasonal/Froggy.jpg';
 import Cage from '../images/seasonal/Cage.jpg';
 import Cupboard from '../images/seasonal/Cupboard.jpg';
 import Cupboard2 from '../images/seasonal/Cupboard2.jpg';
-import Valentines from '../images/seasonal/Valentines.jpg';
 import Chicken from '../images/gifts/Chicken.jpg';
-import Shelves from '../images/gifts/Shelves.jpg';
 import Salsa from '../images/gifts/Salsa.jpg';
 import Setting from '../images/gifts/Setting.jpg';
+import bunny from '../images/seasonal/bunny.jpg';
+import easter from '../images/seasonal/easterdecor.jpg';
+import easterdecor from '../images/seasonal/easter.jpg';
 
 class Seasonal extends Component {
   render() {
@@ -28,16 +29,17 @@ class Seasonal extends Component {
         </div>
         <Grid className="container-fluid">
           <Row>
-          <ImageWrapper image={Valentines} description={"Interiors"} />
-          <ImageWrapper image={deliver} description={"Interiors"} />
           <ImageWrapper image={Cupboard2} description={"Interiors"} />
+          <ImageWrapper image={deliver} description={"Interiors"} />
+          <ImageWrapper image={bunny} description={"Interiors"} />
           <ImageWrapper image={Salsa} description={"Interiors"} />
           <ImageWrapper image={Chicken} description={"Interiors"} />
           <ImageWrapper image={Froggy} description={"Interiors"} />
           <ImageWrapper image={Cage} description={"Interiors"} />
           <ImageWrapper image={Cupboard} description={"Interiors"} />
-          <ImageWrapper image={Shelves} description={"Interiors"} />
           <ImageWrapper image={Setting} description={"Interiors"} />
+          <ImageWrapper image={easter} description={"Interiors"} />
+          <ImageWrapper image={easterdecor} description={"Interiors"} />
           </Row>
         </Grid>
       </div>

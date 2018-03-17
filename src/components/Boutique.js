@@ -24,6 +24,17 @@ import Jewel from '../images/gifts/Jewel.jpg';
 import Neckshelf from '../images/gifts/Neckshelf.jpg';
 import Pearls from '../images/gifts/Pearls.jpg';
 import Lotsabags from '../images/gifts/Lotsabags.jpg';
+import morebags from '../images/home/morebags.jpg';
+import another from '../images/gifts/another.jpg';
+import bag5 from '../images/gifts/bag5.jpg';
+import bag6 from '../images/gifts/bag6.jpg';
+import bag7 from '../images/gifts/bag7.jpg';
+import bag8 from '../images/gifts/bag8.jpg';
+import bag9 from '../images/gifts/bag9.jpg';
+import beads from '../images/gifts/beads.jpg';
+import evenmore from '../images/gifts/evenmore.jpg';
+import morebeads from '../images/gifts/morebeads.jpg';
+import still from '../images/gifts/still.jpg';
 
 class Boutique extends Component {
   render() {
@@ -42,6 +53,14 @@ class Boutique extends Component {
           <Row>
             <ImageWrapper image={tea_towel_happily} description={"242x200"} />
             <ImageWrapper image={deliver} description={"242x200"} />
+            <ImageWrapper image={another} description={"242x200"} />
+            <ImageWrapper image={bag5} description={"242x200"} />
+            <ImageWrapper image={bag6} description={"242x200"} />
+            <ImageWrapper image={bag9} description={"242x200"} />
+            <ImageWrapper image={beads} description={"242x200"} />
+            <ImageWrapper image={morebeads} description={"242x200"} />
+            <ImageWrapper image={evenmore} description={"242x200"} />
+            <ImageWrapper image={still} description={"242x200"} />
             <ImageWrapper image={Jewel} description={"242x200"} />
             <ImageWrapper image={Jewels} description={"242x200"} />
             <ImageWrapper image={Pearls} description={"242x200"} />
@@ -61,7 +80,10 @@ class Boutique extends Component {
             <ImageWrapper image={initial_necklaces} description={"242x200"} />
             <ImageWrapper image={tea_towel_mon_tues} description={"242x200"} />
             <ImageWrapper image={frames} description={"242x200"} />
+            <ImageWrapper image={morebags} description={"242x200"} />
             <ImageWrapper image={Lotsabags} description={"242x200"} />
+            <ImageWrapper image={bag7} description={"242x200"} />
+            <ImageWrapper image={bag8} description={"242x200"} />
           </Row>
         </Grid>
       </div>
