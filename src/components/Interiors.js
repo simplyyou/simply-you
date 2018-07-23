@@ -114,6 +114,15 @@ import shoreshells from '../images/interiors/shoreshells.jpg';
 import birdcage from '../images/interiors/birdcage.jpg';
 import vasebox from '../images/interiors/vasebox.jpg';
 import gold from '../images/interiors/gold.jpg';
+import Rhombus from '../images/home/Rhombus.jpg';
+import Cow from '../images/interiors/Cow.jpg';
+import Spade from '../images/interiors/Spade.jpg';
+import Cowsetting from '../images/interiors/Cowsetting.jpg';
+import Boathook from '../images/interiors/Boathook.jpg';
+import Asparagus from '../images/interiors/Asparagus.jpg';
+import Dumping from '../images/interiors/Dumping.jpg';
+import Followdream from '../images/interiors/Dumping.jpg';
+import Peas from '../images/interiors/Peas.jpg';
 
 class Interiors extends Component {
   render() {
@@ -126,12 +135,13 @@ class Interiors extends Component {
         </Helmet>
         <div className="title-border">
         <h2 className="p-centered">Simply You Interiors</h2>
-        <p className="p-centered">Simply You is situated on the historic park square in Paola. We get new items in weekly so you are sure to find something unique and different each time you visit. Our home interiors collection includes items for each room in your home. We carry items that are timeless as well as some of the latest trends. Check out our new items for Spring!</p>
+        <p className="p-centered">Simply You is situated on the historic park square in Paola. We get new items in weekly so you are sure to find something unique and different each time you visit. Our home interiors collection includes items for each room in your home. We carry items that are timeless as well as some of the latest trends. Check out our new items for Summer and Fall!</p>
         </div>
         <Grid className="container-fluid">
           <Row>
             <ImageWrapper image={jellywall} description={"Interiors"} />
-            <ImageWrapper image={deliver} description={"Interiors"} />
+            <ImageWrapper image={Peas} description={"Interiors"} />
+            <ImageWrapper image={Boathook} description={"Interiors"} />
             <ImageWrapper image={plantsfake} description={"Interiors"} />
             <ImageWrapper image={birdcage} description={"Interiors"} />
             <ImageWrapper image={vasebox} description={"Interiors"} />
@@ -158,32 +168,21 @@ class Interiors extends Component {
             <ImageWrapper image={stuff} description={"Interiors"} />
             <ImageWrapper image={Crusty} description={"Interiors"} />
             <ImageWrapper image={Rooster} description={"Interiors"} />
-            <ImageWrapper image={WhiteLamp} description={"Interiors"} />
             <ImageWrapper image={Lanterny} description={"Interiors"} />
-            <ImageWrapper image={BlackLamp} description={"Interiors"} />
-            <ImageWrapper image={GlassLamp} description={"Interiors"} />
-            <ImageWrapper image={HangingLantern} description={"Interiors"} />
             <ImageWrapper image={Lanterns} description={"Interiors"} />
-            <ImageWrapper image={endtabledecor2} description={"Interiors"} />
             <ImageWrapper image={EdisonLantern} description={"Interiors"} />
-            <ImageWrapper image={Doorknobsign} description={"Interiors"} />
             <ImageWrapper image={CabinetLantern} description={"Interiors"} />
             <ImageWrapper image={Cabinet2} description={"Interiors"} />
             <ImageWrapper image={Cabinet} description={"Interiors"} />
             <ImageWrapper image={Bacon_Sign} description={"Interiors"} />
             <ImageWrapper image={interior1} description={"Interiors"} />
-            <ImageWrapper image={interior4} description={"Interiors"} />
             <ImageWrapper image={interior5} description={"Interiors"} />
             <ImageWrapper image={interior6} description={"Interiors"} />
             <ImageWrapper image={interior9} description={"Interiors"} />
             <ImageWrapper image={interior2} description={"Interiors"} />
-            <ImageWrapper image={interior18} description={"Interiors"} />
             <ImageWrapper image={door} description={"Interiors"} />
             <ImageWrapper image={lantern8} description={"Interiors"} />
             <ImageWrapper image={milk_can} description={"Interiors"} />
-            <ImageWrapper image={tins} description={"Interiors"} />
-            <ImageWrapper image={clock} description={"Interiors"} />
-            <ImageWrapper image={wood_and_metal_sign} description={"Interiors"} />
             <ImageWrapper image={canister} description={"Interiors"} />
             <ImageWrapper image={art} description={"Interiors"} />
             <ImageWrapper image={metalflower} description={"Interiors"} />
@@ -213,18 +212,14 @@ class Interiors extends Component {
             <ImageWrapper image={someclock} description={"Interiors"} />
             <ImageWrapper image={waterjug} description={"Interiors"} />
             <ImageWrapper image={interior20} description={"Interiors"} />
-            <ImageWrapper image={lantern4} description={"Interiors"} />
             <ImageWrapper image={lantern5} description={"Interiors"} />
             <ImageWrapper image={lantern6} description={"Interiors"} />
-            <ImageWrapper image={candle_holders} description={"Interiors"} />
             <ImageWrapper image={tins2} description={"Interiors"} />
             <ImageWrapper image={vase} description={"Interiors"} />
             <ImageWrapper image={wall_hanging} description={"Interiors"} />
             <ImageWrapper image={frame} description={"Interiors"} />
             <ImageWrapper image={heart} description={"Interiors"} />
             <ImageWrapper image={tray} description={"Interiors"} />
-            <ImageWrapper image={metal_clock} description={"Interiors"} />
-            <ImageWrapper image={wine_sign} description={"Interiors"} />
             <ImageWrapper image={wine_pillows} description={"Interiors"} />
             <ImageWrapper image={Winemakingmeawesome} description={"Interiors"} />
             <ImageWrapper image={WoodenTray} description={"Interiors"} />
@@ -242,6 +237,13 @@ class Interiors extends Component {
             <ImageWrapper image={Follow} description={"Interiors"} />
             <ImageWrapper image={Blackshade} description={"Interiors"} />
             <ImageWrapper image={Clockworth} description={"Interiors"} />
+            <ImageWrapper image={Rhombus} description={"Interiors"} />
+            <ImageWrapper image={Cow} description={"Interiors"} />
+            <ImageWrapper image={Spade} description={"Interiors"} />
+            <ImageWrapper image={Cowsetting} description={"Interiors"} />
+            <ImageWrapper image={Asparagus} description={"Interiors"} />
+            <ImageWrapper image={Dumping} description={"Interiors"} />
+            <ImageWrapper image={Followdream} description={"Interiors"} />
           </Row>
         </Grid>
       </div>

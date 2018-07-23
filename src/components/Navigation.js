@@ -30,9 +30,6 @@ class Navigation extends Component {
                 <LinkContainer to="/seasonal">
                   <MenuItem eventKey={1.3}>Seasonal</MenuItem>
                 </LinkContainer>
-                <LinkContainer to="/gifts">
-                  <MenuItem eventKey={1.4}>Gift Ideas</MenuItem>
-                </LinkContainer>
               </NavDropdown>
               <NavDropdown eventKey={2} title="Salon" id="basic-nav-dropdown">
                 <LinkContainer to="/services">
@@ -44,6 +41,9 @@ class Navigation extends Component {
               </NavDropdown>
               <LinkContainer to="/boutique">
                 <NavItem eventKey={3}>Boutique</NavItem>
+              </LinkContainer>
+              <LinkContainer to="/gifts">
+                <MenuItem eventKey={4}>Gifts</MenuItem>
               </LinkContainer>
             </Nav>
             <Nav pullRight>

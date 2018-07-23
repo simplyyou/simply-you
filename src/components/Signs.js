@@ -20,7 +20,7 @@ class Signs extends Component {
         </Helmet>
         <div className="title-border">
         <h2 className="p-centered">Let us design your custom metal sign.</h2>
-        <p className="p-centered">For questions and orders please contact us.</p>
+        <p className="p-centered">For design ideas and orders please contact us.</p>
         </div>
         <Grid className="container-fluid">
           <Row>
