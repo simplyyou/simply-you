@@ -14,6 +14,9 @@ import easterbunny from '../images/home/easterbunny.jpg';
 import shabang from '../images/home/shabang.jpg';
 import brightest from '../images/home/brightest.jpg';
 import SpringPurses from '../images/home/SpringPurses.jpg';
+import Kitchen from '../images/home/Kitchen.jpg';
+import Cowsettings from '../images/home/Cowsettings.jpg';
+import Lambset from '../images/home/Lambset.jpg';
 
 class CarouselX extends Component {
 
@@ -22,55 +25,31 @@ class CarouselX extends Component {
       <div>
         <Carousel>
           <Carousel.Item>
-            <img className="img-carousel" alt="Table Decor" src={easterbunny}/>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="img-carousel" alt="Table Decor" src={shabang}/>
+            <img className="img-carousel" alt="Gourmet Items" src={Kitchen}/>
             <Carousel.Caption>
-              <h3>Check out our new Spring items!</h3>
+              <h3>We have a variety of gift ideas</h3>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
-            <img className="img-carousel" alt="Table Decor" src={brightest}/>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="img-carousel" alt="Table Decor" src={Setter}/>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="img-carousel" alt="Clocks" src={Clockwork}/>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="img-carousel" alt="Lamp" src={Blacker}/>
+            <img className="img-carousel" alt="Gourmet Items" src={Lambset}/>
           </Carousel.Item>
           <Carousel.Item>
             <img className="img-carousel" alt="Gourmet Items" src={Shelver}/>
             <Carousel.Caption>
-              <h3>Come in and see our new selection of purses and jewelry.</h3>
+              <h3>Purses for every season</h3>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
-            <img className="img-carousel" alt="Table Decor" src={EndTableDecor}/>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="img-carousel" alt="Purse" src={TanPurse}/>
-          </Carousel.Item>
-          <Carousel.Item>
             <img className="img-carousel" alt="Vase" src={Vase2}/>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="img-carousel" alt="Sign" src={Follows}/>
+          <Carousel.Caption>
+            <h3>Unique lighting for your home or as gifts</h3>
+          </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
             <img className="img-carousel" alt="Purse" src={SpringPurses}/>
           </Carousel.Item>
           <Carousel.Item>
-            <img className="img-carousel" alt="Candle Holders" src={candle_holders}/>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="img-carousel" alt="Lantern" src={lantern5}/>
-            <Carousel.Caption>
-              <h3>We have a variety of lanterns that are perfect for decorating inside and out.</h3>
-            </Carousel.Caption>
+            <img className="img-carousel" alt="Purse" src={Cowsettings}/>
           </Carousel.Item>
         </Carousel>
       </div>

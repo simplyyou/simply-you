@@ -63,6 +63,7 @@ import Blackshade from '../images/gifts/Blackshade.jpg';
 import Lotsabags from '../images/gifts/Lotsabags.jpg';
 import jellywall from '../images/interiors/jellywall.jpg';
 import jellycart from '../images/interiors/jellycart.jpg';
+import Followdream from '../images/interiors/Followdream.jpg';
 
 class Gifts extends Component {
   render() {
@@ -80,7 +81,7 @@ class Gifts extends Component {
         <Grid className="container-fluid">
           <Row>
             <ImageWrapper image={dog_frame} description={"242x200"} />
-            <ImageWrapper image={deliver} description={"242x200"} />
+            <ImageWrapper image={JarLantern} description={"242x200"} />
             <ImageWrapper image={jellywall} description={"242x200"} />
             <ImageWrapper image={Salsa} description={"242x200"} />
             <ImageWrapper image={Chicken} description={"242x200"} />
@@ -140,6 +141,7 @@ class Gifts extends Component {
             <ImageWrapper image={Blackshade} description={"242x200"} />
             <ImageWrapper image={Setting} description={"242x200"} />
             <ImageWrapper image={jellycart} description={"242x200"} />
+            <ImageWrapper image={Followdream} description={"242x200"} />
           </Row>
         </Grid>
       </div>

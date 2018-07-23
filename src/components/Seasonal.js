@@ -25,21 +25,17 @@ class Seasonal extends Component {
         </Helmet>
         <div className="title-border">
         <h2 className="p-centered">Simply You Seasonal</h2>
-        <p className="p-centered">We have a large selection of inspiring looks for each season. </p>
+        <p className="p-centered">We bring in new items for each season. </p>
         </div>
         <Grid className="container-fluid">
           <Row>
           <ImageWrapper image={Cupboard2} description={"Interiors"} />
-          <ImageWrapper image={deliver} description={"Interiors"} />
-          <ImageWrapper image={bunny} description={"Interiors"} />
           <ImageWrapper image={Salsa} description={"Interiors"} />
           <ImageWrapper image={Chicken} description={"Interiors"} />
           <ImageWrapper image={Froggy} description={"Interiors"} />
           <ImageWrapper image={Cage} description={"Interiors"} />
           <ImageWrapper image={Cupboard} description={"Interiors"} />
           <ImageWrapper image={Setting} description={"Interiors"} />
-          <ImageWrapper image={easter} description={"Interiors"} />
-          <ImageWrapper image={easterdecor} description={"Interiors"} />
           </Row>
         </Grid>
       </div>

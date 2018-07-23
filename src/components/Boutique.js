@@ -15,7 +15,6 @@ import tea_towel_pilates from '../images/gifts/tea_towel_pilates.JPG';
 import deliver from '../images/interiors/deliver_items.jpg';
 import Purses from '../images/gifts/purses.jpeg';
 import FriendsTowel from '../images/interiors/FriendsTowel.jpeg';
-import JarLantern from '../images/gifts/JarLantern.jpg';
 import EndWine from '../images/gifts/EndWine.jpg';
 import BagPurse from '../images/gifts/BagPurse.jpg';
 import Ropebags from '../images/gifts/Ropebags.jpg';
@@ -47,12 +46,11 @@ class Boutique extends Component {
         </Helmet>
         <div className="title-border">
         <h2 className="p-centered">Simply You Boutique</h2>
-        <p className="p-centered">Find just the right purse or just piece of jewelry to accent your outfit. We have many boutique items that are one of kind.</p>
+        <p className="p-centered">Find just the right purse for summer or fall. Stop in and chose a piece of jewelry to accent your outfit. We have many boutique items that are one of kind.</p>
         </div>
         <Grid className="container-fluid">
           <Row>
             <ImageWrapper image={tea_towel_happily} description={"242x200"} />
-            <ImageWrapper image={deliver} description={"242x200"} />
             <ImageWrapper image={another} description={"242x200"} />
             <ImageWrapper image={bag5} description={"242x200"} />
             <ImageWrapper image={bag6} description={"242x200"} />
@@ -68,7 +66,6 @@ class Boutique extends Component {
             <ImageWrapper image={Ropebags} description={"242x200"} />
             <ImageWrapper image={BagPurse} description={"242x200"} />
             <ImageWrapper image={EndWine} description={"242x200"} />
-            <ImageWrapper image={JarLantern} description={"242x200"} />
             <ImageWrapper image={Purses} description={"242x200"} />
             <ImageWrapper image={FriendsTowel} description={"242x200"} />
             <ImageWrapper image={tea_towel_teaching} description={"242x200"} />
