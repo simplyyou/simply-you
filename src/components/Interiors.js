@@ -123,6 +123,10 @@ import Asparagus from '../images/interiors/Asparagus.jpg';
 import Dumping from '../images/interiors/Dumping.jpg';
 import Followdream from '../images/interiors/Dumping.jpg';
 import Peas from '../images/interiors/Peas.jpg';
+import Augustlantern from '../images/interiors/Augustlantern.jpg';
+import Falllantern from '../images/interiors/Falllantern.jpg';
+import Island from '../images/interiors/Island.jpg';
+import Islander from '../images/interiors/Islander.jpg';
 
 class Interiors extends Component {
   render() {
@@ -140,6 +144,10 @@ class Interiors extends Component {
         <Grid className="container-fluid">
           <Row>
             <ImageWrapper image={jellywall} description={"Interiors"} />
+            <ImageWrapper image={Islander} description={"Interiors"} />
+            <ImageWrapper image={Island} description={"Interiors"} />
+            <ImageWrapper image={Augustlantern} description={"Interiors"} />
+            <ImageWrapper image={Falllantern} description={"Interiors"} />
             <ImageWrapper image={Peas} description={"Interiors"} />
             <ImageWrapper image={Boathook} description={"Interiors"} />
             <ImageWrapper image={plantsfake} description={"Interiors"} />

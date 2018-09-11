@@ -13,6 +13,13 @@ import Setting from '../images/gifts/Setting.jpg';
 import bunny from '../images/seasonal/bunny.jpg';
 import easter from '../images/seasonal/easterdecor.jpg';
 import easterdecor from '../images/seasonal/easter.jpg';
+import SSs from '../images/seasonal/S-min.jpeg';
+import Se from '../images/seasonal/Se-min.jpeg';
+import Sea from '../images/seasonal/Sea-min.jpeg';
+import Seas from '../images/seasonal/Seas-min.jpeg';
+import Seaso from '../images/seasonal/Seaso-min.jpeg';
+import Season from '../images/seasonal/Season-min.jpeg';
+import Seasona from '../images/seasonal/Seasona-min.jpeg';
 
 class Seasonal extends Component {
   render() {
@@ -30,12 +37,17 @@ class Seasonal extends Component {
         <Grid className="container-fluid">
           <Row>
           <ImageWrapper image={Cupboard2} description={"Interiors"} />
+          <ImageWrapper image={Sea} description={"Interiors"} />
+          <ImageWrapper image={Seas} description={"Interiors"} />
+          <ImageWrapper image={Seaso} description={"Interiors"} />
+          <ImageWrapper image={Seasona} description={"Interiors"} />
           <ImageWrapper image={Salsa} description={"Interiors"} />
           <ImageWrapper image={Chicken} description={"Interiors"} />
           <ImageWrapper image={Froggy} description={"Interiors"} />
-          <ImageWrapper image={Cage} description={"Interiors"} />
           <ImageWrapper image={Cupboard} description={"Interiors"} />
-          <ImageWrapper image={Setting} description={"Interiors"} />
+          <ImageWrapper image={SSs} description={"Interiors"} />
+          <ImageWrapper image={Se} description={"Interiors"} />
+          <ImageWrapper image={Season} description={"Interiors"} />
           </Row>
         </Grid>
       </div>

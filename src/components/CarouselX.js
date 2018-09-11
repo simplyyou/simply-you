@@ -17,6 +17,10 @@ import SpringPurses from '../images/home/SpringPurses.jpg';
 import Kitchen from '../images/home/Kitchen.jpg';
 import Cowsettings from '../images/home/Cowsettings.jpg';
 import Lambset from '../images/home/Lambset.jpg';
+import Facebook from '../images/home/Facebook.JPG';
+import Hh from '../images/home/H-min.jpeg';
+import Ho from '../images/home/Ho-min.jpeg';
+import Hom from '../images/home/Hom-min.jpeg';
 
 class CarouselX extends Component {
 
@@ -24,6 +28,18 @@ class CarouselX extends Component {
     return (
       <div>
         <Carousel>
+          <Carousel.Item>
+            <img className="img-carousel" alt="Gourmet Items" src={Facebook}/>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="img-carousel" alt="Gourmet Items" src={Hh}/>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="img-carousel" alt="Gourmet Items" src={Ho}/>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="img-carousel" alt="Gourmet Items" src={Hom}/>
+          </Carousel.Item>
           <Carousel.Item>
             <img className="img-carousel" alt="Gourmet Items" src={Kitchen}/>
             <Carousel.Caption>
@@ -38,12 +54,6 @@ class CarouselX extends Component {
             <Carousel.Caption>
               <h3>Purses for every season</h3>
             </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="img-carousel" alt="Vase" src={Vase2}/>
-          <Carousel.Caption>
-            <h3>Unique lighting for your home or as gifts</h3>
-          </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
             <img className="img-carousel" alt="Purse" src={SpringPurses}/>

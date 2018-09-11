@@ -64,6 +64,10 @@ import Lotsabags from '../images/gifts/Lotsabags.jpg';
 import jellywall from '../images/interiors/jellywall.jpg';
 import jellycart from '../images/interiors/jellycart.jpg';
 import Followdream from '../images/interiors/Followdream.jpg';
+import Augustlantern from '../images/interiors/Augustlantern.jpg';
+import Falllantern from '../images/interiors/Falllantern.jpg';
+import Island from '../images/interiors/Island.jpg';
+import Islander from '../images/interiors/Islander.jpg';
 
 class Gifts extends Component {
   render() {
@@ -81,6 +85,10 @@ class Gifts extends Component {
         <Grid className="container-fluid">
           <Row>
             <ImageWrapper image={dog_frame} description={"242x200"} />
+            <ImageWrapper image={Islander} description={"242x200"} />
+            <ImageWrapper image={Island} description={"242x200"} />
+            <ImageWrapper image={Falllantern} description={"242x200"} />
+            <ImageWrapper image={Augustlantern} description={"242x200"} />
             <ImageWrapper image={JarLantern} description={"242x200"} />
             <ImageWrapper image={jellywall} description={"242x200"} />
             <ImageWrapper image={Salsa} description={"242x200"} />
