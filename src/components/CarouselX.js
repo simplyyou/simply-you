@@ -21,6 +21,10 @@ import Facebook from '../images/home/Facebook.JPG';
 import Hh from '../images/home/H-min.jpeg';
 import Ho from '../images/home/Ho-min.jpeg';
 import Hom from '../images/home/Hom-min.jpeg';
+import c from '../images/home/c.jpeg';
+import ca from '../images/home/ca.jpeg';
+import car from '../images/home/car.jpeg';
+import caro from '../images/home/caro.jpeg';
 
 class CarouselX extends Component {
 
@@ -30,6 +34,18 @@ class CarouselX extends Component {
         <Carousel>
           <Carousel.Item>
             <img className="img-carousel" alt="Gourmet Items" src={Facebook}/>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="img-carousel" alt="Gourmet Items" src={c}/>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="img-carousel" alt="Gourmet Items" src={ca}/>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="img-carousel" alt="Gourmet Items" src={car}/>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="img-carousel" alt="Gourmet Items" src={caro}/>
           </Carousel.Item>
           <Carousel.Item>
             <img className="img-carousel" alt="Gourmet Items" src={Hh}/>

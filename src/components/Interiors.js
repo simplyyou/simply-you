@@ -127,6 +127,8 @@ import Augustlantern from '../images/interiors/Augustlantern.jpg';
 import Falllantern from '../images/interiors/Falllantern.jpg';
 import Island from '../images/interiors/Island.jpg';
 import Islander from '../images/interiors/Islander.jpg';
+import i from '../images/interiors/i.jpeg';
+import inner from '../images/interiors/inner.jpeg';
 
 class Interiors extends Component {
   render() {
@@ -144,6 +146,7 @@ class Interiors extends Component {
         <Grid className="container-fluid">
           <Row>
             <ImageWrapper image={jellywall} description={"Interiors"} />
+            <ImageWrapper image={inner} description={"Interiors"} />
             <ImageWrapper image={Islander} description={"Interiors"} />
             <ImageWrapper image={Island} description={"Interiors"} />
             <ImageWrapper image={Augustlantern} description={"Interiors"} />
@@ -252,6 +255,7 @@ class Interiors extends Component {
             <ImageWrapper image={Asparagus} description={"Interiors"} />
             <ImageWrapper image={Dumping} description={"Interiors"} />
             <ImageWrapper image={Followdream} description={"Interiors"} />
+            <ImageWrapper image={i} description={"Interiors"} />
           </Row>
         </Grid>
       </div>
