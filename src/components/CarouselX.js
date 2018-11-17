@@ -25,6 +25,7 @@ import c from '../images/home/c.jpeg';
 import ca from '../images/home/ca.jpeg';
 import car from '../images/home/car.jpeg';
 import caro from '../images/home/caro.jpeg';
+import Car1 from '../images/home/Car1.jpeg';
 
 class CarouselX extends Component {
 
@@ -32,6 +33,9 @@ class CarouselX extends Component {
     return (
       <div>
         <Carousel>
+          <Carousel.Item>
+            <img className="img-carousel" alt="Gourmet Items" src={Car1}/>
+          </Carousel.Item>
           <Carousel.Item>
             <img className="img-carousel" alt="Gourmet Items" src={Facebook}/>
           </Carousel.Item>

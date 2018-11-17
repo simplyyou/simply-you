@@ -38,6 +38,24 @@ import f from '../images/seasonal/f.jpeg';
 import fa from '../images/seasonal/fa.jpeg';
 import fal from '../images/seasonal/fal.jpeg';
 import fall from '../images/seasonal/fall.jpeg';
+import x from '../images/seasonal/bigwreath.jpg';
+import xx from '../images/seasonal/christdecor.jpg';
+import xxx from '../images/seasonal/lanternrud.jpg';
+import xxxx from '../images/seasonal/merry.jpg';
+import xxxxx from '../images/seasonal/ornament.jpg';
+import xxxxxx from '../images/seasonal/owl.jpg';
+import z from '../images/seasonal/piano.jpg';
+import zz from '../images/seasonal/rein.JPEG';
+import zzzz from '../images/seasonal/rudolph.jpg';
+import zzzzz from '../images/seasonal/santa.jpg';
+import y from '../images/seasonal/santawheel.jpg';
+import yy from '../images/seasonal/Towels.jpeg';
+import yyy from '../images/seasonal/tree.jpg';
+import yyyy from '../images/seasonal/wreath.JPEG';
+import q from '../images/seasonal/twain.jpeg';
+import qq from '../images/seasonal/RedLantern.jpg';
+import qqq from '../images/seasonal/individ.jpg';
+import qqqq from '../images/seasonal/frosty.jpg';
 
 class Seasonal extends Component {
   render() {
@@ -54,11 +72,24 @@ class Seasonal extends Component {
         </div>
         <Grid className="container-fluid">
           <Row>
+          <ImageWrapper image={x} description={"Interiors"} />
+          <ImageWrapper image={xx} description={"Interiors"} />
+          <ImageWrapper image={xxx} description={"Interiors"} />
+          <ImageWrapper image={xxxx} description={"Interiors"} />
+          <ImageWrapper image={xxxxx} description={"Interiors"} />
+          <ImageWrapper image={xxxxxx} description={"Interiors"} />
+          <ImageWrapper image={y} description={"Interiors"} />
+          <ImageWrapper image={yyy} description={"Interiors"} />
+          <ImageWrapper image={yy} description={"Interiors"} />
+          <ImageWrapper image={yyyy} description={"Interiors"} />
+          <ImageWrapper image={z} description={"Interiors"} />
+          <ImageWrapper image={zz} description={"Interiors"} />
+          <ImageWrapper image={zzzz} description={"Interiors"} />
+          <ImageWrapper image={zzzzz} description={"Interiors"} />
           <ImageWrapper image={Cupboard2} description={"Interiors"} />
           <ImageWrapper image={blue} description={"Interiors"} />
           <ImageWrapper image={fal} description={"Interiors"} />
           <ImageWrapper image={a} description={"Interiors"} />
-          <ImageWrapper image={autum} description={"Interiors"} />
           <ImageWrapper image={autumn} description={"Interiors"} />
           <ImageWrapper image={autumner} description={"Interiors"} />
           <ImageWrapper image={autumnern} description={"Interiors"} />
@@ -67,12 +98,14 @@ class Seasonal extends Component {
           <ImageWrapper image={fall} description={"Interiors"} />
           <ImageWrapper image={Sea} description={"Interiors"} />
           <ImageWrapper image={Seas} description={"Interiors"} />
-          <ImageWrapper image={Seaso} description={"Interiors"} />
-          <ImageWrapper image={Seasona} description={"Interiors"} />
           <ImageWrapper image={Salsa} description={"Interiors"} />
           <ImageWrapper image={Chicken} description={"Interiors"} />
           <ImageWrapper image={Froggy} description={"Interiors"} />
           <ImageWrapper image={Cupboard} description={"Interiors"} />
+          <ImageWrapper image={q} description={"Interiors"} />
+          <ImageWrapper image={qq} description={"Interiors"} />
+          <ImageWrapper image={qqq} description={"Interiors"} />
+          <ImageWrapper image={qqqq} description={"Interiors"} />
           <ImageWrapper image={SSs} description={"Interiors"} />
           <ImageWrapper image={Se} description={"Interiors"} />
           <ImageWrapper image={Season} description={"Interiors"} />
