@@ -85,24 +85,15 @@ class Gifts extends Component {
         <Grid className="container-fluid">
           <Row>
             <ImageWrapper image={dog_frame} description={"242x200"} />
-            <ImageWrapper image={Islander} description={"242x200"} />
-            <ImageWrapper image={Island} description={"242x200"} />
-            <ImageWrapper image={Falllantern} description={"242x200"} />
-            <ImageWrapper image={Augustlantern} description={"242x200"} />
             <ImageWrapper image={JarLantern} description={"242x200"} />
-            <ImageWrapper image={jellywall} description={"242x200"} />
-            <ImageWrapper image={Salsa} description={"242x200"} />
-            <ImageWrapper image={Chicken} description={"242x200"} />
             <ImageWrapper image={Jewel} description={"242x200"} />
             <ImageWrapper image={Jewels} description={"242x200"} />
             <ImageWrapper image={Pearls} description={"242x200"} />
             <ImageWrapper image={Neckshelf} description={"242x200"} />
-            <ImageWrapper image={Cupboard} description={"242x200"} />
             <ImageWrapper image={BagPurse} description={"242x200"} />
             <ImageWrapper image={EndWine} description={"242x200"} />
             <ImageWrapper image={JarLantern} description={"242x200"} />
             <ImageWrapper image={PlaidScarf} description={"242x200"} />
-            <ImageWrapper image={BaconSign} description={"242x200"} />
             <ImageWrapper image={Purse2} description={"242x200"} />
             <ImageWrapper image={Rooster1} description={"242x200"} />
             <ImageWrapper image={Scarf} description={"242x200"} />
@@ -148,7 +139,6 @@ class Gifts extends Component {
             <ImageWrapper image={Lotsabags} description={"242x200"} />
             <ImageWrapper image={Blackshade} description={"242x200"} />
             <ImageWrapper image={Setting} description={"242x200"} />
-            <ImageWrapper image={jellycart} description={"242x200"} />
             <ImageWrapper image={Followdream} description={"242x200"} />
           </Row>
         </Grid>

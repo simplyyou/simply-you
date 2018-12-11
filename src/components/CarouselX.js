@@ -26,6 +26,18 @@ import ca from '../images/home/ca.jpeg';
 import car from '../images/home/car.jpeg';
 import caro from '../images/home/caro.jpeg';
 import Car1 from '../images/home/Car1.jpeg';
+import q from '../images/home/q.jpg';
+import qq from '../images/home/qq.jpg';
+import qqq from '../images/home/qqq.JPG';
+import qqqq from '../images/home/qqqq.jpg';
+import qqqqq from '../images/home/qqqqq.jpg';
+import qqqqqq from '../images/home/qqqqqq.jpg';
+import qqqqqqq from '../images/home/qqqqqqq.jpg';
+import r from '../images/home/r.jpg';
+import rr from '../images/home/rr.jpg';
+import rrr from '../images/home/rrr.jpg';
+import rrrr from '../images/home/rrrr.jpg';
+import rrrrr from '../images/home/rrrrr.jpg';
 
 class CarouselX extends Component {
 
@@ -34,37 +46,43 @@ class CarouselX extends Component {
       <div>
         <Carousel>
           <Carousel.Item>
+            <img className="img-carousel" alt="Gourmet Items" src={q}/>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="img-carousel" alt="Gourmet Items" src={qq}/>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="img-carousel" alt="Gourmet Items" src={qqq}/>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="img-carousel" alt="Gourmet Items" src={qqqq}/>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="img-carousel" alt="Gourmet Items" src={qqqqq}/>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="img-carousel" alt="Gourmet Items" src={qqqqqq}/>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="img-carousel" alt="Gourmet Items" src={qqqqqqq}/>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="img-carousel" alt="Gourmet Items" src={r}/>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="img-carousel" alt="Gourmet Items" src={rr}/>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="img-carousel" alt="Gourmet Items" src={rrr}/>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="img-carousel" alt="Gourmet Items" src={rrrr}/>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="img-carousel" alt="Gourmet Items" src={rrrrr}/>
+          </Carousel.Item>
+          <Carousel.Item>
             <img className="img-carousel" alt="Gourmet Items" src={Car1}/>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="img-carousel" alt="Gourmet Items" src={Facebook}/>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="img-carousel" alt="Gourmet Items" src={c}/>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="img-carousel" alt="Gourmet Items" src={ca}/>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="img-carousel" alt="Gourmet Items" src={car}/>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="img-carousel" alt="Gourmet Items" src={caro}/>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="img-carousel" alt="Gourmet Items" src={Hh}/>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="img-carousel" alt="Gourmet Items" src={Ho}/>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="img-carousel" alt="Gourmet Items" src={Hom}/>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="img-carousel" alt="Gourmet Items" src={Kitchen}/>
-            <Carousel.Caption>
-              <h3>We have a variety of gift ideas</h3>
-            </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
             <img className="img-carousel" alt="Gourmet Items" src={Lambset}/>

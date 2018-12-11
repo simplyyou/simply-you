@@ -145,12 +145,6 @@ class Interiors extends Component {
         </div>
         <Grid className="container-fluid">
           <Row>
-            <ImageWrapper image={jellywall} description={"Interiors"} />
-            <ImageWrapper image={inner} description={"Interiors"} />
-            <ImageWrapper image={Islander} description={"Interiors"} />
-            <ImageWrapper image={Island} description={"Interiors"} />
-            <ImageWrapper image={Augustlantern} description={"Interiors"} />
-            <ImageWrapper image={Falllantern} description={"Interiors"} />
             <ImageWrapper image={Peas} description={"Interiors"} />
             <ImageWrapper image={Boathook} description={"Interiors"} />
             <ImageWrapper image={plantsfake} description={"Interiors"} />
@@ -185,7 +179,6 @@ class Interiors extends Component {
             <ImageWrapper image={CabinetLantern} description={"Interiors"} />
             <ImageWrapper image={Cabinet2} description={"Interiors"} />
             <ImageWrapper image={Cabinet} description={"Interiors"} />
-            <ImageWrapper image={Bacon_Sign} description={"Interiors"} />
             <ImageWrapper image={interior1} description={"Interiors"} />
             <ImageWrapper image={interior5} description={"Interiors"} />
             <ImageWrapper image={interior6} description={"Interiors"} />
@@ -201,12 +194,10 @@ class Interiors extends Component {
             <ImageWrapper image={mirrorcorner} description={"Interiors"} />
             <ImageWrapper image={barrellid} description={"Interiors"} />
             <ImageWrapper image={greenflower} description={"Interiors"} />
-            <ImageWrapper image={strawberry} description={"Interiors"} />
             <ImageWrapper image={winedispenser} description={"Interiors"} />
             <ImageWrapper image={shortcan} description={"Interiors"} />
             <ImageWrapper image={flowerpot} description={"Interiors"} />
             <ImageWrapper image={flowerbox} description={"Interiors"} />
-            <ImageWrapper image={jellycart} description={"Interiors"} />
             <ImageWrapper image={biglight} description={"Interiors"} />
             <ImageWrapper image={bowbox} description={"Interiors"} />
             <ImageWrapper image={crochetballs} description={"Interiors"} />
