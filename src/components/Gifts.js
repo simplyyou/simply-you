@@ -92,9 +92,6 @@ class Gifts extends Component {
         </div>
         <Grid className="container-fluid">
           <Row>
-            <ImageWrapper image={yyyy} description={"242x200"} />
-            <ImageWrapper image={zz} description={"242x200"} />
-            <ImageWrapper image={yy} description={"242x200"} />
             <ImageWrapper image={dog_frame} description={"242x200"} />
             <ImageWrapper image={Jewel} description={"242x200"} />
             <ImageWrapper image={Jewels} description={"242x200"} />
@@ -122,10 +119,6 @@ class Gifts extends Component {
             <ImageWrapper image={tea_towel_pilates} description={"242x200"} />
             <ImageWrapper image={tea_towel_outdoorsy} description={"242x200"} />
             <ImageWrapper image={initial_necklaces} description={"242x200"} />
-            <ImageWrapper image={mmmmm} description={"242x200"} />
-            <ImageWrapper image={mmmmmm} description={"242x200"} />
-            <ImageWrapper image={n} description={"242x200"} />
-            <ImageWrapper image={o} description={"242x200"} />
             <ImageWrapper image={tea_towel_mon_tues} description={"242x200"} />
             <ImageWrapper image={frames} description={"242x200"} />
             <ImageWrapper image={CuttingBoard5} description={"242x200"} />

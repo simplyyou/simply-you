@@ -46,45 +46,6 @@ class CarouselX extends Component {
       <div>
         <Carousel>
           <Carousel.Item>
-            <img className="img-carousel" alt="Gourmet Items" src={q}/>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="img-carousel" alt="Gourmet Items" src={qq}/>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="img-carousel" alt="Gourmet Items" src={qqq}/>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="img-carousel" alt="Gourmet Items" src={qqqq}/>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="img-carousel" alt="Gourmet Items" src={qqqqq}/>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="img-carousel" alt="Gourmet Items" src={qqqqqq}/>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="img-carousel" alt="Gourmet Items" src={qqqqqqq}/>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="img-carousel" alt="Gourmet Items" src={r}/>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="img-carousel" alt="Gourmet Items" src={rr}/>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="img-carousel" alt="Gourmet Items" src={rrr}/>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="img-carousel" alt="Gourmet Items" src={rrrr}/>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="img-carousel" alt="Gourmet Items" src={rrrrr}/>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="img-carousel" alt="Gourmet Items" src={Car1}/>
-          </Carousel.Item>
-          <Carousel.Item>
             <img className="img-carousel" alt="Gourmet Items" src={Lambset}/>
           </Carousel.Item>
           <Carousel.Item>

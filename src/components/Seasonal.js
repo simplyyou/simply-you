@@ -112,65 +112,7 @@ class Seasonal extends Component {
         </div>
         <Grid className="container-fluid">
           <Row>
-          <ImageWrapper image={e} description={"Interiors"} />
-          <ImageWrapper image={ee} description={"Interiors"} />
-          <ImageWrapper image={eee} description={"Interiors"} />
-          <ImageWrapper image={eeee} description={"Interiors"} />
-          <ImageWrapper image={eeeee} description={"Interiors"} />
-          <ImageWrapper image={eeeeee} description={"Interiors"} />
-          <ImageWrapper image={fart} description={"Interiors"} />
-          <ImageWrapper image={ff} description={"Interiors"} />
-          <ImageWrapper image={fff} description={"Interiors"} />
-          <ImageWrapper image={ffff} description={"Interiors"} />
-          <ImageWrapper image={fffff} description={"Interiors"} />
-          <ImageWrapper image={ffffff} description={"Interiors"} />
-          <ImageWrapper image={g} description={"Interiors"} />
-          <ImageWrapper image={gg} description={"Interiors"} />
-          <ImageWrapper image={x} description={"Interiors"} />
-          <ImageWrapper image={xx} description={"Interiors"} />
-          <ImageWrapper image={xxx} description={"Interiors"} />
-          <ImageWrapper image={xxxx} description={"Interiors"} />
-          <ImageWrapper image={xxxxx} description={"Interiors"} />
-          <ImageWrapper image={xxxxxx} description={"Interiors"} />
-          <ImageWrapper image={y} description={"Interiors"} />
-          <ImageWrapper image={yyy} description={"Interiors"} />
-          <ImageWrapper image={yy} description={"Interiors"} />
-          <ImageWrapper image={yyyy} description={"Interiors"} />
-          <ImageWrapper image={z} description={"Interiors"} />
-          <ImageWrapper image={zz} description={"Interiors"} />
-          <ImageWrapper image={zzzz} description={"Interiors"} />
-          <ImageWrapper image={zzzzz} description={"Interiors"} />
           <ImageWrapper image={Froggy} description={"Interiors"} />
-          <ImageWrapper image={l} description={"Interiors"} />
-          <ImageWrapper image={ll} description={"Interiors"} />
-          <ImageWrapper image={lll} description={"Interiors"} />
-          <ImageWrapper image={llll} description={"Interiors"} />
-          <ImageWrapper image={lllll} description={"Interiors"} />
-          <ImageWrapper image={llllll} description={"Interiors"} />
-          <ImageWrapper image={m} description={"Interiors"} />
-          <ImageWrapper image={mm} description={"Interiors"} />
-          <ImageWrapper image={mmm} description={"Interiors"} />
-          <ImageWrapper image={mmmmm} description={"Interiors"} />
-          <ImageWrapper image={mmmmmm} description={"Interiors"} />
-          <ImageWrapper image={n} description={"Interiors"} />
-          <ImageWrapper image={nn} description={"Interiors"} />
-          <ImageWrapper image={nnn} description={"Interiors"} />
-          <ImageWrapper image={nnnn} description={"Interiors"} />
-          <ImageWrapper image={nnnnn} description={"Interiors"} />
-          <ImageWrapper image={nnnnnn} description={"Interiors"} />
-          <ImageWrapper image={o} description={"Interiors"} />
-          <ImageWrapper image={oo} description={"Interiors"} />
-          <ImageWrapper image={ooo} description={"Interiors"} />
-          <ImageWrapper image={oooo} description={"Interiors"} />
-          <ImageWrapper image={ooooo} description={"Interiors"} />
-          <ImageWrapper image={oooooo} description={"Interiors"} />
-          <ImageWrapper image={p} description={"Interiors"} />
-          <ImageWrapper image={pp} description={"Interiors"} />
-          <ImageWrapper image={ppp} description={"Interiors"} />
-          <ImageWrapper image={q} description={"Interiors"} />
-          <ImageWrapper image={qq} description={"Interiors"} />
-          <ImageWrapper image={qqq} description={"Interiors"} />
-          <ImageWrapper image={qqqq} description={"Interiors"} />
           <ImageWrapper image={au} description={"Interiors"} />
           </Row>
         </Grid>
