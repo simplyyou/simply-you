@@ -96,6 +96,9 @@ import fffff from '../images/seasonal/fffff.jpg';
 import ffffff from '../images/seasonal/ffffff.jpg';
 import g from '../images/seasonal/g.jpg';
 import gg from '../images/seasonal/gg.jpg';
+import easter1 from '../images/seasonal/easter1.jpeg';
+import easter2 from '../images/seasonal/easter2.jpg';
+import easter3 from '../images/seasonal/easter3.jpg';
 
 class Seasonal extends Component {
   render() {
@@ -113,6 +116,9 @@ class Seasonal extends Component {
         <Grid className="container-fluid">
           <Row>
           <ImageWrapper image={Froggy} description={"Interiors"} />
+          <ImageWrapper image={easter1} description={"Interiors"} />
+          <ImageWrapper image={easter2} description={"Interiors"} />
+          <ImageWrapper image={easter3} description={"Interiors"} />
           <ImageWrapper image={au} description={"Interiors"} />
           </Row>
         </Grid>

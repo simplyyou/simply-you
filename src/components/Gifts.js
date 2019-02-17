@@ -76,6 +76,11 @@ import n from '../images/seasonal/n.jpg';
 import o from '../images/seasonal/o.jpg';
 import llllll from '../images/seasonal/llllll.jpg';
 import zz from '../images/seasonal/rein.JPEG';
+import gifts1 from '../images/gifts/gifts1.jpeg';
+import necklaces1 from '../images/gifts/necklaces1.jpg';
+import necklaces2 from '../images/gifts/necklaces2.jpg';
+import showercap from '../images/gifts/showercap.jpg';
+import towelz from '../images/gifts/towelz.jpg';
 
 class Gifts extends Component {
   render() {
@@ -93,6 +98,10 @@ class Gifts extends Component {
         <Grid className="container-fluid">
           <Row>
             <ImageWrapper image={dog_frame} description={"242x200"} />
+            <ImageWrapper image={gifts1} description={"242x200"} />
+            <ImageWrapper image={necklaces2} description={"242x200"} />
+            <ImageWrapper image={showercap} description={"242x200"} />
+            <ImageWrapper image={towelz} description={"242x200"} />
             <ImageWrapper image={Jewel} description={"242x200"} />
             <ImageWrapper image={Jewels} description={"242x200"} />
             <ImageWrapper image={Pearls} description={"242x200"} />
@@ -147,6 +156,7 @@ class Gifts extends Component {
             <ImageWrapper image={Blackshade} description={"242x200"} />
             <ImageWrapper image={Setting} description={"242x200"} />
             <ImageWrapper image={Followdream} description={"242x200"} />
+            <ImageWrapper image={necklaces1} description={"242x200"} />
           </Row>
         </Grid>
       </div>

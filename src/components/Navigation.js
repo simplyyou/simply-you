@@ -24,11 +24,11 @@ class Navigation extends Component {
                 <LinkContainer to="/interiors">
                   <MenuItem eventKey={1.1}>Interiors</MenuItem>
                 </LinkContainer>
-                <LinkContainer to="/signs">
-                  <MenuItem eventKey={1.2}>Custom Metal Signs</MenuItem>
-                </LinkContainer>
                 <LinkContainer to="/seasonal">
                   <MenuItem eventKey={1.3}>Seasonal</MenuItem>
+                </LinkContainer>
+                <LinkContainer to="/signs">
+                  <MenuItem eventKey={1.2}>Custom Metal Signs</MenuItem>
                 </LinkContainer>
               </NavDropdown>
               <NavDropdown eventKey={2} title="Salon" id="basic-nav-dropdown">

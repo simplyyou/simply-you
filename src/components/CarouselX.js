@@ -38,6 +38,7 @@ import rr from '../images/home/rr.jpg';
 import rrr from '../images/home/rrr.jpg';
 import rrrr from '../images/home/rrrr.jpg';
 import rrrrr from '../images/home/rrrrr.jpg';
+import springcollage from '../images/home/springcollage.jpg';
 
 class CarouselX extends Component {
 
@@ -45,6 +46,9 @@ class CarouselX extends Component {
     return (
       <div>
         <Carousel>
+          <Carousel.Item>
+            <img className="img-carousel" alt="Gourmet Items" src={springcollage}/>
+          </Carousel.Item>
           <Carousel.Item>
             <img className="img-carousel" alt="Gourmet Items" src={Lambset}/>
           </Carousel.Item>

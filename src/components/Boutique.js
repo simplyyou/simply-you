@@ -34,6 +34,14 @@ import beads from '../images/gifts/beads.jpg';
 import evenmore from '../images/gifts/evenmore.jpg';
 import morebeads from '../images/gifts/morebeads.jpg';
 import still from '../images/gifts/still.jpg';
+import braceletz from '../images/gifts/braceletz.jpg';
+import gifts1 from '../images/gifts/gifts1.jpeg';
+import necklaces1 from '../images/gifts/necklaces1.jpg';
+import necklaces2 from '../images/gifts/necklaces2.jpg';
+import purses1 from '../images/gifts/purses1.jpeg';
+import purses2 from '../images/gifts/purses2.jpeg';
+import showercap from '../images/gifts/showercap.jpg';
+import towelz from '../images/gifts/towelz.jpg';
 
 class Boutique extends Component {
   render() {
@@ -51,6 +59,13 @@ class Boutique extends Component {
         <Grid className="container-fluid">
           <Row>
             <ImageWrapper image={tea_towel_happily} description={"242x200"} />
+            <ImageWrapper image={braceletz} description={"242x200"} />
+            <ImageWrapper image={gifts1} description={"242x200"} />
+            <ImageWrapper image={necklaces2} description={"242x200"} />
+            <ImageWrapper image={purses1} description={"242x200"} />
+            <ImageWrapper image={purses2} description={"242x200"} />
+            <ImageWrapper image={showercap} description={"242x200"} />
+            <ImageWrapper image={towelz} description={"242x200"} />
             <ImageWrapper image={another} description={"242x200"} />
             <ImageWrapper image={bag5} description={"242x200"} />
             <ImageWrapper image={bag6} description={"242x200"} />
@@ -81,6 +96,7 @@ class Boutique extends Component {
             <ImageWrapper image={Lotsabags} description={"242x200"} />
             <ImageWrapper image={bag7} description={"242x200"} />
             <ImageWrapper image={bag8} description={"242x200"} />
+            <ImageWrapper image={necklaces1} description={"242x200"} />
           </Row>
         </Grid>
       </div>

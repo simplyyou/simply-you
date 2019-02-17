@@ -129,6 +129,9 @@ import Island from '../images/interiors/Island.jpg';
 import Islander from '../images/interiors/Islander.jpg';
 import i from '../images/interiors/i.jpeg';
 import inner from '../images/interiors/inner.jpeg';
+import easter1 from '../images/seasonal/easter1.jpeg';
+import easter2 from '../images/seasonal/easter2.jpg';
+import easter3 from '../images/seasonal/easter3.jpg';
 
 class Interiors extends Component {
   render() {
@@ -146,6 +149,9 @@ class Interiors extends Component {
         <Grid className="container-fluid">
           <Row>
             <ImageWrapper image={Peas} description={"Interiors"} />
+            <ImageWrapper image={easter1} description={"Interiors"} />
+            <ImageWrapper image={easter2} description={"Interiors"} />
+            <ImageWrapper image={easter3} description={"Interiors"} />
             <ImageWrapper image={Boathook} description={"Interiors"} />
             <ImageWrapper image={plantsfake} description={"Interiors"} />
             <ImageWrapper image={birdcage} description={"Interiors"} />
