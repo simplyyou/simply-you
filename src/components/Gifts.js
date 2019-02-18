@@ -93,7 +93,7 @@ class Gifts extends Component {
         </Helmet>
         <div className="title-border">
         <h2 className="p-centered">Simply You Gifts</h2>
-        <p className="p-centered">Let us help you with just the right item for a gift whether it’s for a friend or family member or for a special occasion such as a birthday or a Mother&#39;s Day present. We have many budget friendly items such as one of a kind picture frames, inspiring and whimsical kitchen towels, to trendy Edison lighting for any room of the house including those teenagers bedrooms!</p>
+        <p className="p-centered">Let us help you with just the right item for a gift whether it’s for a friend or family member or for a special occasion such as a birthday or a Mother&#39;s Day present. We have many budget friendly items such as one of a kind picture frames, inspiring and whimsical kitchen towels, to trendy Edison lighting!</p>
         </div>
         <Grid className="container-fluid">
           <Row>

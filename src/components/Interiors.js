@@ -144,7 +144,7 @@ class Interiors extends Component {
         </Helmet>
         <div className="title-border">
         <h2 className="p-centered">Simply You Interiors</h2>
-        <p className="p-centered">Simply You is situated on the historic park square in Paola. We get new items in weekly so you are sure to find something unique and different each time you visit. Our home interiors collection includes items for each room in your home. We carry items that are timeless as well as some of the latest trends. Check out our new items for Summer and Fall!</p>
+        <p className="p-centered">Simply You is situated on the historic park square in Paola. We get new items in weekly so you are sure to find something unique and different each time you visit. Our home interiors collection includes items for each room in your home. We carry items that are timeless as well as some of the latest trends. Check out our new items for Easter!</p>
         </div>
         <Grid className="container-fluid">
           <Row>
