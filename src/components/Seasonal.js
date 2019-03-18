@@ -99,6 +99,12 @@ import gg from '../images/seasonal/gg.jpg';
 import easter1 from '../images/seasonal/easter1.jpeg';
 import easter2 from '../images/seasonal/easter2.jpg';
 import easter3 from '../images/seasonal/easter3.jpg';
+import t from '../images/seasonal/t.jpg';
+import tt from '../images/seasonal/tt.jpg';
+import ttttt from '../images/seasonal/ttttt.jpg';
+import ttt from '../images/seasonal/ttt.jpg';
+import tttt from '../images/seasonal/tttt.jpg';
+import tttttt from '../images/seasonal/tttttt.jpg';
 
 class Seasonal extends Component {
   render() {
@@ -115,10 +121,16 @@ class Seasonal extends Component {
         </div>
         <Grid className="container-fluid">
           <Row>
+          <ImageWrapper image={t} description={"Interiors"} />
+          <ImageWrapper image={tt} description={"Interiors"} />
+          <ImageWrapper image={ttttt} description={"Interiors"} />
           <ImageWrapper image={Froggy} description={"Interiors"} />
           <ImageWrapper image={easter1} description={"Interiors"} />
           <ImageWrapper image={easter2} description={"Interiors"} />
           <ImageWrapper image={easter3} description={"Interiors"} />
+          <ImageWrapper image={ttt} description={"Interiors"} />
+          <ImageWrapper image={tttt} description={"Interiors"} />
+          <ImageWrapper image={tttttt} description={"Interiors"} />
           <ImageWrapper image={au} description={"Interiors"} />
           </Row>
         </Grid>

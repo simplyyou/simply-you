@@ -39,6 +39,15 @@ import rrr from '../images/home/rrr.jpg';
 import rrrr from '../images/home/rrrr.jpg';
 import rrrrr from '../images/home/rrrrr.jpg';
 import springcollage from '../images/home/springcollage.jpg';
+import c2 from '../images/home/c.jpg';
+import cc from '../images/home/cc.jpg';
+import ccc from '../images/home/ccc.jpg';
+import cccc from '../images/home/cccc.jpg';
+import ccccc from '../images/home/ccccc.jpg';
+import v from '../images/home/v.jpg';
+import vv from '../images/home/vv.jpg';
+import vvv from '../images/home/vvv.jpg';
+import vvvv from '../images/home/vvvv.jpg';
 
 class CarouselX extends Component {
 
@@ -46,6 +55,33 @@ class CarouselX extends Component {
     return (
       <div>
         <Carousel>
+          <Carousel.Item>
+            <img className="img-carousel" alt="Gourmet Items" src={c2}/>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="img-carousel" alt="Gourmet Items" src={cc}/>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="img-carousel" alt="Gourmet Items" src={ccc}/>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="img-carousel" alt="Gourmet Items" src={cccc}/>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="img-carousel" alt="Gourmet Items" src={ccccc}/>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="img-carousel" alt="Gourmet Items" src={v}/>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="img-carousel" alt="Gourmet Items" src={vv}/>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="img-carousel" alt="Gourmet Items" src={vvv}/>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="img-carousel" alt="Gourmet Items" src={vvvv}/>
+          </Carousel.Item>
           <Carousel.Item>
             <img className="img-carousel" alt="Gourmet Items" src={springcollage}/>
           </Carousel.Item>

@@ -81,6 +81,11 @@ import necklaces1 from '../images/gifts/necklaces1.jpg';
 import necklaces2 from '../images/gifts/necklaces2.jpg';
 import showercap from '../images/gifts/showercap.jpg';
 import towelz from '../images/gifts/towelz.jpg';
+import g from '../images/gifts/g.jpg';
+import gg from '../images/gifts/gg.jpg';
+import ggg from '../images/gifts/ggg.jpg';
+import gggg from '../images/gifts/gggg.jpg';
+import ggggg from '../images/gifts/ggggg.jpg';
 
 class Gifts extends Component {
   render() {
@@ -109,10 +114,8 @@ class Gifts extends Component {
             <ImageWrapper image={BagPurse} description={"242x200"} />
             <ImageWrapper image={EndWine} description={"242x200"} />
             <ImageWrapper image={JarLantern} description={"242x200"} />
-            <ImageWrapper image={PlaidScarf} description={"242x200"} />
             <ImageWrapper image={Purse2} description={"242x200"} />
             <ImageWrapper image={Rooster1} description={"242x200"} />
-            <ImageWrapper image={Scarf} description={"242x200"} />
             <ImageWrapper image={Doorknobsign} description={"242x200"} />
             <ImageWrapper image={HangingLantern} description={"242x200"} />
             <ImageWrapper image={Necklace1} description={"242x200"} />
@@ -128,6 +131,11 @@ class Gifts extends Component {
             <ImageWrapper image={tea_towel_pilates} description={"242x200"} />
             <ImageWrapper image={tea_towel_outdoorsy} description={"242x200"} />
             <ImageWrapper image={initial_necklaces} description={"242x200"} />
+            <ImageWrapper image={g} description={"242x200"} />
+            <ImageWrapper image={gg} description={"242x200"} />
+            <ImageWrapper image={ggg} description={"242x200"} />
+            <ImageWrapper image={gggg} description={"242x200"} />
+            <ImageWrapper image={ggggg} description={"242x200"} />
             <ImageWrapper image={tea_towel_mon_tues} description={"242x200"} />
             <ImageWrapper image={frames} description={"242x200"} />
             <ImageWrapper image={CuttingBoard5} description={"242x200"} />
@@ -153,8 +161,6 @@ class Gifts extends Component {
             <ImageWrapper image={cuttingboard3} description={"242x200"} />
             <ImageWrapper image={Bracelets} description={"242x200"} />
             <ImageWrapper image={Lotsabags} description={"242x200"} />
-            <ImageWrapper image={Blackshade} description={"242x200"} />
-            <ImageWrapper image={Setting} description={"242x200"} />
             <ImageWrapper image={Followdream} description={"242x200"} />
             <ImageWrapper image={necklaces1} description={"242x200"} />
           </Row>

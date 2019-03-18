@@ -132,6 +132,28 @@ import inner from '../images/interiors/inner.jpeg';
 import easter1 from '../images/seasonal/easter1.jpeg';
 import easter2 from '../images/seasonal/easter2.jpg';
 import easter3 from '../images/seasonal/easter3.jpg';
+import l from '../images/interiors/l.jpg';
+import ll from '../images/interiors/ll.jpg';
+import lll from '../images/interiors/lll.jpg';
+import k from '../images/interiors/k.jpg';
+import kk from '../images/interiors/kk.jpg';
+import kkk from '../images/interiors/kkk.jpg';
+import kkkk from '../images/interiors/kkkk.jpg';
+import kkkkk from '../images/interiors/kkkkk.jpg';
+import kkkkkk from '../images/interiors/kkkkkk.jpg';
+import pppp from '../images/interiors/pppp.jpg';
+import pi from '../images/interiors/i.jpg';
+import ii from '../images/interiors/ii.jpg';
+import llll from '../images/interiors/llll.jpg';
+import lllll from '../images/interiors/lllll.jpg';
+import llllll from '../images/interiors/llllll.jpg';
+import p from '../images/interiors/p.jpg';
+import pp from '../images/interiors/pp.jpg';
+import ppp from '../images/interiors/ppp.jpg';
+import ppppp from '../images/interiors/ppppp.jpg';
+import iii from '../images/interiors/iii.jpg';
+import iiii from '../images/interiors/iiii.jpg';
+
 
 class Interiors extends Component {
   render() {
@@ -148,11 +170,19 @@ class Interiors extends Component {
         </div>
         <Grid className="container-fluid">
           <Row>
+            <ImageWrapper image={iii} description={"Interiors"} />
             <ImageWrapper image={Peas} description={"Interiors"} />
+            <ImageWrapper image={p} description={"Interiors"} />
+            <ImageWrapper image={pp} description={"Interiors"} />
+            <ImageWrapper image={ppp} description={"Interiors"} />
+            <ImageWrapper image={ppppp} description={"Interiors"} />
+            <ImageWrapper image={llll} description={"Interiors"} />
+            <ImageWrapper image={lllll} description={"Interiors"} />
+            <ImageWrapper image={llllll} description={"Interiors"} />
+            <ImageWrapper image={l} description={"Interiors"} />
             <ImageWrapper image={easter1} description={"Interiors"} />
             <ImageWrapper image={easter2} description={"Interiors"} />
             <ImageWrapper image={easter3} description={"Interiors"} />
-            <ImageWrapper image={Boathook} description={"Interiors"} />
             <ImageWrapper image={plantsfake} description={"Interiors"} />
             <ImageWrapper image={birdcage} description={"Interiors"} />
             <ImageWrapper image={vasebox} description={"Interiors"} />
@@ -164,7 +194,6 @@ class Interiors extends Component {
             <ImageWrapper image={gives} description={"Interiors"} />
             <ImageWrapper image={greenmirror} description={"Interiors"} />
             <ImageWrapper image={flowerbasket} description={"Interiors"} />
-            <ImageWrapper image={faucet} description={"Interiors"} />
             <ImageWrapper image={ballcage} description={"Interiors"} />
             <ImageWrapper image={quack} description={"Interiors"} />
             <ImageWrapper image={open} description={"Interiors"} />
@@ -194,20 +223,27 @@ class Interiors extends Component {
             <ImageWrapper image={lantern8} description={"Interiors"} />
             <ImageWrapper image={milk_can} description={"Interiors"} />
             <ImageWrapper image={canister} description={"Interiors"} />
+            <ImageWrapper image={ll} description={"Interiors"} />
+            <ImageWrapper image={lll} description={"Interiors"} />
+            <ImageWrapper image={k} description={"Interiors"} />
+            <ImageWrapper image={iiii} description={"Interiors"} />
+            <ImageWrapper image={kk} description={"Interiors"} />
+            <ImageWrapper image={kkk} description={"Interiors"} />
+            <ImageWrapper image={kkkk} description={"Interiors"} />
+            <ImageWrapper image={kkkkk} description={"Interiors"} />
+            <ImageWrapper image={kkkkkk} description={"Interiors"} />
+            <ImageWrapper image={pi} description={"Interiors"} />
+            <ImageWrapper image={ii} description={"Interiors"} />
+            <ImageWrapper image={pppp} description={"Interiors"} />
             <ImageWrapper image={art} description={"Interiors"} />
-            <ImageWrapper image={metalflower} description={"Interiors"} />
             <ImageWrapper image={gold} description={"Interiors"} />
             <ImageWrapper image={mirrorcorner} description={"Interiors"} />
-            <ImageWrapper image={barrellid} description={"Interiors"} />
             <ImageWrapper image={greenflower} description={"Interiors"} />
-            <ImageWrapper image={winedispenser} description={"Interiors"} />
             <ImageWrapper image={shortcan} description={"Interiors"} />
             <ImageWrapper image={flowerpot} description={"Interiors"} />
             <ImageWrapper image={flowerbox} description={"Interiors"} />
-            <ImageWrapper image={biglight} description={"Interiors"} />
             <ImageWrapper image={bowbox} description={"Interiors"} />
             <ImageWrapper image={crochetballs} description={"Interiors"} />
-            <ImageWrapper image={crochetbasket} description={"Interiors"} />
             <ImageWrapper image={crochetstuff} description={"Interiors"} />
             <ImageWrapper image={glassstuff} description={"Interiors"} />
             <ImageWrapper image={lakestuff} description={"Interiors"} />
@@ -215,34 +251,11 @@ class Interiors extends Component {
             <ImageWrapper image={watercans} description={"Interiors"} />
             <ImageWrapper image={shotglass} description={"Interiors"} />
             <ImageWrapper image={clocksome} description={"Interiors"} />
-            <ImageWrapper image={jugowater} description={"Interiors"} />
             <ImageWrapper image={fakeplant} description={"Interiors"} />
             <ImageWrapper image={someclock} description={"Interiors"} />
-            <ImageWrapper image={waterjug} description={"Interiors"} />
             <ImageWrapper image={interior20} description={"Interiors"} />
             <ImageWrapper image={lantern5} description={"Interiors"} />
             <ImageWrapper image={lantern6} description={"Interiors"} />
-            <ImageWrapper image={tins2} description={"Interiors"} />
-            <ImageWrapper image={vase} description={"Interiors"} />
-            <ImageWrapper image={wall_hanging} description={"Interiors"} />
-            <ImageWrapper image={frame} description={"Interiors"} />
-            <ImageWrapper image={heart} description={"Interiors"} />
-            <ImageWrapper image={tray} description={"Interiors"} />
-            <ImageWrapper image={wine_pillows} description={"Interiors"} />
-            <ImageWrapper image={Winemakingmeawesome} description={"Interiors"} />
-            <ImageWrapper image={WoodenTray} description={"Interiors"} />
-            <ImageWrapper image={Mirror2} description={"Interiors"} />
-            <ImageWrapper image={PillowandDecanter} description={"Interiors"} />
-            <ImageWrapper image={Mirror} description={"Interiors"} />
-            <ImageWrapper image={HangingRack} description={"Interiors"} />
-            <ImageWrapper image={HangingLight} description={"Interiors"} />
-            <ImageWrapper image={Mirrors} description={"Interiors"} />
-            <ImageWrapper image={EndTableDecor} description={"Interiors"} />
-            <ImageWrapper image={CuttingBoard5} description={"Interiors"} />
-            <ImageWrapper image={cuttingboard3} description={"Interiors"} />
-            <ImageWrapper image={CuttingBoard1} description={"Interiors"} />
-            <ImageWrapper image={Clock2} description={"Interiors"} />
-            <ImageWrapper image={Follow} description={"Interiors"} />
             <ImageWrapper image={Blackshade} description={"Interiors"} />
             <ImageWrapper image={Clockworth} description={"Interiors"} />
             <ImageWrapper image={Rhombus} description={"Interiors"} />
@@ -251,7 +264,6 @@ class Interiors extends Component {
             <ImageWrapper image={Cowsetting} description={"Interiors"} />
             <ImageWrapper image={Asparagus} description={"Interiors"} />
             <ImageWrapper image={Dumping} description={"Interiors"} />
-            <ImageWrapper image={Followdream} description={"Interiors"} />
             <ImageWrapper image={i} description={"Interiors"} />
           </Row>
         </Grid>
