@@ -105,6 +105,7 @@ import ttttt from '../images/seasonal/ttttt.jpg';
 import ttt from '../images/seasonal/ttt.jpg';
 import tttt from '../images/seasonal/tttt.jpg';
 import tttttt from '../images/seasonal/tttttt.jpg';
+import igs from '../images/gifts/igs.jpg';
 
 class Seasonal extends Component {
   render() {
@@ -132,6 +133,7 @@ class Seasonal extends Component {
           <ImageWrapper image={tttt} description={"Interiors"} />
           <ImageWrapper image={tttttt} description={"Interiors"} />
           <ImageWrapper image={au} description={"Interiors"} />
+          <ImageWrapper image={igs} description={"Interiors"} />
           </Row>
         </Grid>
       </div>

@@ -153,6 +153,38 @@ import ppp from '../images/interiors/ppp.jpg';
 import ppppp from '../images/interiors/ppppp.jpg';
 import iii from '../images/interiors/iii.jpg';
 import iiii from '../images/interiors/iiii.jpg';
+import gi from '../images/gifts/gi.jpg';
+import igs from '../images/gifts/igs.jpg';
+import i1 from '../images/interiors/i1.jpg';
+import i2 from '../images/interiors/i2.jpg';
+import i3 from '../images/interiors/i3.jpg';
+import i4 from '../images/interiors/i4.jpg';
+import i5 from '../images/interiors/i5.jpg';
+import i6 from '../images/interiors/i6.jpg';
+import i7 from '../images/interiors/i7.jpg';
+import i8 from '../images/interiors/i8.jpg';
+import i9 from '../images/interiors/i9.jpg';
+import i10 from '../images/interiors/i10.jpg';
+import i11 from '../images/interiors/i11.jpg';
+import i12 from '../images/interiors/i12.jpg';
+import i13 from '../images/interiors/i13.jpg';
+import i14 from '../images/interiors/i14.jpg';
+import i15 from '../images/interiors/i15.jpg';
+import i16 from '../images/interiors/i16.jpg';
+import i17 from '../images/interiors/i17.jpg';
+import i18 from '../images/interiors/i18.jpg';
+import i19 from '../images/interiors/i19.jpg';
+import t1 from '../images/interiors/t1.jpg';
+import t2 from '../images/interiors/t2.jpg';
+import t3 from '../images/interiors/t3.jpg';
+import t4 from '../images/interiors/t4.jpg';
+import t5 from '../images/interiors/t5.jpg';
+import t6 from '../images/interiors/t6.jpg';
+import t7 from '../images/interiors/t7.jpg';
+import t8 from '../images/interiors/t8.jpg';
+import t9 from '../images/interiors/t9.jpg';
+import t10 from '../images/interiors/t10.jpg';
+import t11 from '../images/interiors/t11.jpg';
 
 
 class Interiors extends Component {
@@ -170,7 +202,19 @@ class Interiors extends Component {
         </div>
         <Grid className="container-fluid">
           <Row>
+            <ImageWrapper image={t1} description={"Interiors"} />
+            <ImageWrapper image={t2} description={"Interiors"} />
+            <ImageWrapper image={t3} description={"Interiors"} />
+            <ImageWrapper image={t4} description={"Interiors"} />
+            <ImageWrapper image={t5} description={"Interiors"} />
+            <ImageWrapper image={t6} description={"Interiors"} />
+            <ImageWrapper image={t7} description={"Interiors"} />
+            <ImageWrapper image={t8} description={"Interiors"} />
+            <ImageWrapper image={t9} description={"Interiors"} />
+            <ImageWrapper image={t10} description={"Interiors"} />
+            <ImageWrapper image={t11} description={"Interiors"} />
             <ImageWrapper image={iii} description={"Interiors"} />
+            <ImageWrapper image={gi} description={"Interiors"} />
             <ImageWrapper image={Peas} description={"Interiors"} />
             <ImageWrapper image={p} description={"Interiors"} />
             <ImageWrapper image={pp} description={"Interiors"} />
@@ -264,7 +308,26 @@ class Interiors extends Component {
             <ImageWrapper image={Cowsetting} description={"Interiors"} />
             <ImageWrapper image={Asparagus} description={"Interiors"} />
             <ImageWrapper image={Dumping} description={"Interiors"} />
-            <ImageWrapper image={i} description={"Interiors"} />
+            <ImageWrapper image={igs} description={"Interiors"} />
+            <ImageWrapper image={i1} description={"Interiors"} />
+            <ImageWrapper image={i2} description={"Interiors"} />
+            <ImageWrapper image={i3} description={"Interiors"} />
+            <ImageWrapper image={i4} description={"Interiors"} />
+            <ImageWrapper image={i5} description={"Interiors"} />
+            <ImageWrapper image={i6} description={"Interiors"} />
+            <ImageWrapper image={i7} description={"Interiors"} />
+            <ImageWrapper image={i8} description={"Interiors"} />
+            <ImageWrapper image={i9} description={"Interiors"} />
+            <ImageWrapper image={i10} description={"Interiors"} />
+            <ImageWrapper image={i11} description={"Interiors"} />
+            <ImageWrapper image={i12} description={"Interiors"} />
+            <ImageWrapper image={i13} description={"Interiors"} />
+            <ImageWrapper image={i14} description={"Interiors"} />
+            <ImageWrapper image={i15} description={"Interiors"} />
+            <ImageWrapper image={i16} description={"Interiors"} />
+            <ImageWrapper image={i17} description={"Interiors"} />
+            <ImageWrapper image={i18} description={"Interiors"} />
+            <ImageWrapper image={i19} description={"Interiors"} />
           </Row>
         </Grid>
       </div>

@@ -48,6 +48,13 @@ import v from '../images/home/v.jpg';
 import vv from '../images/home/vv.jpg';
 import vvv from '../images/home/vvv.jpg';
 import vvvv from '../images/home/vvvv.jpg';
+import y1 from '../images/home/y1.jpg';
+import y2 from '../images/home/y2.jpg';
+import y3 from '../images/home/y3.jpg';
+import y4 from '../images/home/y4.jpg';
+import y5 from '../images/home/y5.jpg';
+import y6 from '../images/home/y6.jpg';
+import y7 from '../images/home/y7.jpg';
 
 class CarouselX extends Component {
 
@@ -55,6 +62,27 @@ class CarouselX extends Component {
     return (
       <div>
         <Carousel>
+          <Carousel.Item>
+            <img className="img-carousel" alt="Gourmet Items" src={y1}/>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="img-carousel" alt="Gourmet Items" src={y2}/>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="img-carousel" alt="Gourmet Items" src={y3}/>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="img-carousel" alt="Gourmet Items" src={y4}/>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="img-carousel" alt="Gourmet Items" src={y5}/>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="img-carousel" alt="Gourmet Items" src={y6}/>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="img-carousel" alt="Gourmet Items" src={y7}/>
+          </Carousel.Item>
           <Carousel.Item>
             <img className="img-carousel" alt="Gourmet Items" src={c2}/>
           </Carousel.Item>

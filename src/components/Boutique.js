@@ -49,6 +49,16 @@ import hhhh from '../images/gifts/hhhh.jpg';
 import hhhhh from '../images/gifts/hhhhh.jpg';
 import hhhhhh from '../images/gifts/hhhhhh.jpg';
 import hhhhhhh from '../images/gifts/hhhhhhh.jpg';
+import a from '../images/gifts/a.jpg';
+import aa from '../images/gifts/aa.jpg';
+import aaa from '../images/gifts/aaa.jpg';
+import aaaa from '../images/gifts/aaaa.jpg';
+import aaaaa from '../images/gifts/aaaaa.jpg';
+import aaaaaa from '../images/gifts/aaaaaa.jpg';
+import aaaaaaa from '../images/gifts/aaaaaaa.jpg';
+import aaaaaaaa from '../images/gifts/aaaaaaaa.jpg';
+import aaaaaaaaa from '../images/gifts/aaaaaaaaa.jpg';
+import aaaaaaaaaa from '../images/gifts/aaaaaaaaaa.jpg';
 
 class Boutique extends Component {
   render() {
@@ -65,6 +75,8 @@ class Boutique extends Component {
         </div>
         <Grid className="container-fluid">
           <Row>
+            <ImageWrapper image={a} description={"242x200"} />
+            <ImageWrapper image={aaa} description={"242x200"} />
             <ImageWrapper image={h} description={"242x200"} />
             <ImageWrapper image={hh} description={"242x200"} />
             <ImageWrapper image={hhh} description={"242x200"} />
@@ -111,6 +123,14 @@ class Boutique extends Component {
             <ImageWrapper image={bag7} description={"242x200"} />
             <ImageWrapper image={bag8} description={"242x200"} />
             <ImageWrapper image={necklaces1} description={"242x200"} />
+            <ImageWrapper image={aa} description={"242x200"} />
+            <ImageWrapper image={aaaa} description={"242x200"} />
+            <ImageWrapper image={aaaaa} description={"242x200"} />
+            <ImageWrapper image={aaaaaa} description={"242x200"} />
+            <ImageWrapper image={aaaaaaa} description={"242x200"} />
+            <ImageWrapper image={aaaaaaaa} description={"242x200"} />
+            <ImageWrapper image={aaaaaaaaa} description={"242x200"} />
+            <ImageWrapper image={aaaaaaaaaa} description={"242x200"} />
           </Row>
         </Grid>
       </div>
