@@ -224,8 +224,6 @@ class Interiors extends Component {
             <ImageWrapper image={lllll} description={"Interiors"} />
             <ImageWrapper image={llllll} description={"Interiors"} />
             <ImageWrapper image={l} description={"Interiors"} />
-            <ImageWrapper image={easter1} description={"Interiors"} />
-            <ImageWrapper image={easter2} description={"Interiors"} />
             <ImageWrapper image={easter3} description={"Interiors"} />
             <ImageWrapper image={plantsfake} description={"Interiors"} />
             <ImageWrapper image={birdcage} description={"Interiors"} />
