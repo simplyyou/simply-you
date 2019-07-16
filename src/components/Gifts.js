@@ -108,7 +108,7 @@ class Gifts extends Component {
           <Row>
             <ImageWrapper image={dog_frame} description={"242x200"} />
             <ImageWrapper image={gi} description={"242x200"} />
-            <ImageWrapper image={g3} description={"242x200"} />
+
             <ImageWrapper image={gifts1} description={"242x200"} />
             <ImageWrapper image={necklaces2} description={"242x200"} />
             <ImageWrapper image={showercap} description={"242x200"} />
@@ -171,6 +171,7 @@ class Gifts extends Component {
             <ImageWrapper image={necklaces1} description={"242x200"} />
             <ImageWrapper image={g2} description={"242x200"} />
             <ImageWrapper image={igs} description={"242x200"} />
+            <ImageWrapper image={g3} description={"242x200"} />
           </Row>
         </Grid>
       </div>
