@@ -94,12 +94,6 @@ class CarouselX extends Component {
             <img className="img-carousel" alt="Gourmet Items" src={cccc}/>
           </Carousel.Item>
           <Carousel.Item>
-            <img className="img-carousel" alt="Gourmet Items" src={ccccc}/>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="img-carousel" alt="Gourmet Items" src={v}/>
-          </Carousel.Item>
-          <Carousel.Item>
             <img className="img-carousel" alt="Gourmet Items" src={vv}/>
           </Carousel.Item>
           <Carousel.Item>

@@ -86,6 +86,10 @@ import gg from '../images/gifts/gg.jpg';
 import ggg from '../images/gifts/ggg.jpg';
 import gggg from '../images/gifts/gggg.jpg';
 import ggggg from '../images/gifts/ggggg.jpg';
+import g2 from '../images/gifts/g2.jpg';
+import g3 from '../images/gifts/g3.jpg';
+import gi from '../images/gifts/gi.jpg';
+import igs from '../images/gifts/igs.jpg';
 
 class Gifts extends Component {
   render() {
@@ -98,11 +102,13 @@ class Gifts extends Component {
         </Helmet>
         <div className="title-border">
         <h2 className="p-centered">Simply You Gifts</h2>
-        <p className="p-centered">Let us help you with just the right item for a gift whether it’s for a friend or family member or for a special occasion such as a birthday or a Mother&#39;s Day present. We have many budget friendly items such as one of a kind picture frames, inspiring and whimsical kitchen towels, to trendy Edison lighting!</p>
+        <p className="p-centered">Let us help you with just the right item for a gift whether it’s for a friend or family member or for a special occasion. We have many budget friendly items such as one of a kind picture frames, inspiring and whimsical kitchen towels, to trendy Edison lighting!</p>
         </div>
         <Grid className="container-fluid">
           <Row>
             <ImageWrapper image={dog_frame} description={"242x200"} />
+            <ImageWrapper image={gi} description={"242x200"} />
+            <ImageWrapper image={g3} description={"242x200"} />
             <ImageWrapper image={gifts1} description={"242x200"} />
             <ImageWrapper image={necklaces2} description={"242x200"} />
             <ImageWrapper image={showercap} description={"242x200"} />
@@ -163,6 +169,8 @@ class Gifts extends Component {
             <ImageWrapper image={Lotsabags} description={"242x200"} />
             <ImageWrapper image={Followdream} description={"242x200"} />
             <ImageWrapper image={necklaces1} description={"242x200"} />
+            <ImageWrapper image={g2} description={"242x200"} />
+            <ImageWrapper image={igs} description={"242x200"} />
           </Row>
         </Grid>
       </div>
