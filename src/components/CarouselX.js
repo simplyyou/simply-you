@@ -55,6 +55,8 @@ import y4 from '../images/home/y4.jpg';
 import y5 from '../images/home/y5.jpg';
 import y6 from '../images/home/y6.jpg';
 import y7 from '../images/home/y7.jpg';
+import c1014 from '../images/home/c1014.jpeg';
+import ad from '../images/home/ad.png';
 
 class CarouselX extends Component {
 
@@ -62,6 +64,12 @@ class CarouselX extends Component {
     return (
       <div>
         <Carousel>
+          <Carousel.Item>
+            <img className="img-carousel" alt="Gourmet Items" src={ad}/>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="img-carousel" alt="Gourmet Items" src={c1014}/>
+          </Carousel.Item>
           <Carousel.Item>
             <img className="img-carousel" alt="Gourmet Items" src={y1}/>
           </Carousel.Item>
