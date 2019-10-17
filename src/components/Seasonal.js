@@ -122,6 +122,22 @@ import NatureDecor from '../images/seasonal/NatureDecor.jpg';
 import ornament from '../images/seasonal/ornament.jpg';
 import Ornaments from '../images/seasonal/Ornaments.jpg';
 import piano from '../images/seasonal/piano.jpg';
+import c1 from '../images/seasonal/c1.jpg';
+import c2 from '../images/seasonal/c2.jpg';
+import c3 from '../images/seasonal/c3.jpg';
+import c4 from '../images/seasonal/c4.jpg';
+import c5 from '../images/seasonal/c5.jpg';
+import c6 from '../images/seasonal/c6.jpg';
+import c7 from '../images/seasonal/c7.jpg';
+import c8 from '../images/seasonal/c8.jpg';
+import c9 from '../images/seasonal/c9.jpg';
+import c10 from '../images/seasonal/c10.jpg';
+import c11 from '../images/seasonal/c11.jpg';
+import a1 from '../images/seasonal/a1.jpg';
+import a2 from '../images/seasonal/a2.jpg';
+import a3 from '../images/seasonal/a3.jpg';
+import a4 from '../images/seasonal/a4.jpg';
+import a5 from '../images/seasonal/a5.jpg';
 
 
 
@@ -143,6 +159,16 @@ class Seasonal extends Component {
         </div>
         <Grid className="container-fluid">
           <Row>
+          <ImageWrapper image={c1} description={"Interiors"} />
+          <ImageWrapper image={c2} description={"Interiors"} />
+          <ImageWrapper image={c3} description={"Interiors"} />
+          <ImageWrapper image={c11} description={"Interiors"} />
+          <ImageWrapper image={c4} description={"Interiors"} />
+          <ImageWrapper image={c5} description={"Interiors"} />
+          <ImageWrapper image={c6} description={"Interiors"} />
+          <ImageWrapper image={c7} description={"Interiors"} />
+          <ImageWrapper image={c8} description={"Interiors"} />
+          <ImageWrapper image={c9} description={"Interiors"} />
           <ImageWrapper image={hi} description={"Interiors"} />
           <ImageWrapper image={ornament} description={"Interiors"} />
           <ImageWrapper image={Ornaments} description={"Interiors"} />
@@ -200,6 +226,11 @@ class Seasonal extends Component {
           <ImageWrapper image={p} description={"Interiors"} />
           <ImageWrapper image={pp} description={"Interiors"} />
           <ImageWrapper image={ppp} description={"Interiors"} />
+          <ImageWrapper image={a1} description={"Interiors"} />
+          <ImageWrapper image={a2} description={"Interiors"} />
+          <ImageWrapper image={a3} description={"Interiors"} />
+          <ImageWrapper image={a4} description={"Interiors"} />
+          <ImageWrapper image={a5} description={"Interiors"} />
           </Row>
         </Grid>
       </div>
