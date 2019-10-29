@@ -138,6 +138,8 @@ import a2 from '../images/seasonal/a2.jpg';
 import a3 from '../images/seasonal/a3.jpg';
 import a4 from '../images/seasonal/a4.jpg';
 import a5 from '../images/seasonal/a5.jpg';
+import d1 from '../images/seasonal/d1.jpg';
+import d2 from '../images/seasonal/d2.jpg';
 
 
 
@@ -159,8 +161,10 @@ class Seasonal extends Component {
         </div>
         <Grid className="container-fluid">
           <Row>
+          <ImageWrapper image={d1} description={"Interiors"} />
+          <ImageWrapper image={d2} description={"Interiors"} />
           <ImageWrapper image={c1} description={"Interiors"} />
-          <ImageWrapper image={c2} description={"Interiors"} />
+
           <ImageWrapper image={c3} description={"Interiors"} />
           <ImageWrapper image={c11} description={"Interiors"} />
           <ImageWrapper image={c4} description={"Interiors"} />

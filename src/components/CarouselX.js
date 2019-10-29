@@ -57,6 +57,11 @@ import y6 from '../images/home/y6.jpg';
 import y7 from '../images/home/y7.jpg';
 import c1014 from '../images/home/c1014.jpeg';
 import ad from '../images/home/ad.png';
+import a1 from '../images/home/a1.jpg';
+import a2 from '../images/home/a2.jpg';
+import a3 from '../images/home/a3.jpg';
+import a4 from '../images/home/a4.jpg';
+import a5 from '../images/home/a5.jpg';
 
 class CarouselX extends Component {
 
@@ -67,6 +72,22 @@ class CarouselX extends Component {
           <Carousel.Item>
             <img className="img-carousel" alt="Gourmet Items" src={ad}/>
           </Carousel.Item>
+          <Carousel.Item>
+            <img className="img-carousel" alt="Gourmet Items" src={a1}/>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="img-carousel" alt="Gourmet Items" src={a2}/>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="img-carousel" alt="Gourmet Items" src={a3}/>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="img-carousel" alt="Gourmet Items" src={a4}/>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="img-carousel" alt="Gourmet Items" src={a5}/>
+          </Carousel.Item>
+
           <Carousel.Item>
             <img className="img-carousel" alt="Gourmet Items" src={c1014}/>
           </Carousel.Item>
@@ -83,13 +104,7 @@ class CarouselX extends Component {
             <img className="img-carousel" alt="Gourmet Items" src={y4}/>
           </Carousel.Item>
           <Carousel.Item>
-            <img className="img-carousel" alt="Gourmet Items" src={y5}/>
-          </Carousel.Item>
-          <Carousel.Item>
             <img className="img-carousel" alt="Gourmet Items" src={y6}/>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="img-carousel" alt="Gourmet Items" src={y7}/>
           </Carousel.Item>
           <Carousel.Item>
             <img className="img-carousel" alt="Gourmet Items" src={c2}/>
@@ -97,7 +112,6 @@ class CarouselX extends Component {
           <Carousel.Item>
             <img className="img-carousel" alt="Gourmet Items" src={cc}/>
           </Carousel.Item>
-
           <Carousel.Item>
             <img className="img-carousel" alt="Gourmet Items" src={cccc}/>
           </Carousel.Item>
@@ -110,15 +124,8 @@ class CarouselX extends Component {
           <Carousel.Item>
             <img className="img-carousel" alt="Gourmet Items" src={vvvv}/>
           </Carousel.Item>
-
           <Carousel.Item>
             <img className="img-carousel" alt="Gourmet Items" src={Lambset}/>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="img-carousel" alt="Gourmet Items" src={Shelver}/>
-            <Carousel.Caption>
-              <h3>Purses for every season</h3>
-            </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
             <img className="img-carousel" alt="Purse" src={SpringPurses}/>
