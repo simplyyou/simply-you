@@ -161,80 +161,11 @@ class Seasonal extends Component {
         </div>
         <Grid className="container-fluid">
           <Row>
-          <ImageWrapper image={d1} description={"Interiors"} />
-          <ImageWrapper image={d2} description={"Interiors"} />
-          <ImageWrapper image={c1} description={"Interiors"} />
 
-          <ImageWrapper image={c3} description={"Interiors"} />
-          <ImageWrapper image={c11} description={"Interiors"} />
-          <ImageWrapper image={c4} description={"Interiors"} />
-          <ImageWrapper image={c5} description={"Interiors"} />
-          <ImageWrapper image={c6} description={"Interiors"} />
-          <ImageWrapper image={c7} description={"Interiors"} />
-          <ImageWrapper image={c8} description={"Interiors"} />
-          <ImageWrapper image={c9} description={"Interiors"} />
-          <ImageWrapper image={hi} description={"Interiors"} />
-          <ImageWrapper image={ornament} description={"Interiors"} />
-          <ImageWrapper image={Ornaments} description={"Interiors"} />
-          <ImageWrapper image={piano} description={"Interiors"} />
-          <ImageWrapper image={g} description={"Interiors"} />
-          <ImageWrapper image={gg} description={"Interiors"} />
-          <ImageWrapper image={eeee} description={"Interiors"} />
-          <ImageWrapper image={ffffff} description={"Interiors"} />
-          <ImageWrapper image={fffff} description={"Interiors"} />
-          <ImageWrapper image={eeeee} description={"Interiors"} />
-          <ImageWrapper image={eeeeee} description={"Interiors"} />
-          <ImageWrapper image={fart} description={"Interiors"} />
-          <ImageWrapper image={ff} description={"Interiors"} />
-          <ImageWrapper image={fff} description={"Interiors"} />
-          <ImageWrapper image={ffff} description={"Interiors"} />
-          <ImageWrapper image={Christmas1} description={"Interiors"} />
-          <ImageWrapper image={e} description={"Interiors"} />
-          <ImageWrapper image={ee} description={"Interiors"} />
-          <ImageWrapper image={eee} description={"Interiors"} />
-          <ImageWrapper image={bigwreath} description={"Interiors"} />
-          <ImageWrapper image={s11014} description={"Interiors"} />
-          <ImageWrapper image={s21014} description={"Interiors"} />
-          <ImageWrapper image={s31014} description={"Interiors"} />
           <ImageWrapper image={Froggy} description={"Interiors"} />
           <ImageWrapper image={au} description={"Interiors"} />
           <ImageWrapper image={igs} description={"Interiors"} />
-          <ImageWrapper image={s41014} description={"Interiors"} />
-          <ImageWrapper image={Christmas2} description={"Interiors"} />
-          <ImageWrapper image={frosty} description={"Interiors"} />
-          <ImageWrapper image={individ} description={"Interiors"} />
-          <ImageWrapper image={l} description={"Interiors"} />
-          <ImageWrapper image={ll} description={"Interiors"} />
-          <ImageWrapper image={lll} description={"Interiors"} />
-          <ImageWrapper image={llll} description={"Interiors"} />
-          <ImageWrapper image={lllll} description={"Interiors"} />
-          <ImageWrapper image={llllll} description={"Interiors"} />
-          <ImageWrapper image={m} description={"Interiors"} />
-          <ImageWrapper image={MerryChristmas} description={"Interiors"} />
-          <ImageWrapper image={mmm} description={"Interiors"} />
-          <ImageWrapper image={mmmmm} description={"Interiors"} />
-          <ImageWrapper image={mmmmmm} description={"Interiors"} />
-          <ImageWrapper image={n} description={"Interiors"} />
-          <ImageWrapper image={NatureDecor} description={"Interiors"} />
-          <ImageWrapper image={nn} description={"Interiors"} />
-          <ImageWrapper image={nnn} description={"Interiors"} />
-          <ImageWrapper image={nnnn} description={"Interiors"} />
-          <ImageWrapper image={nnnnn} description={"Interiors"} />
-          <ImageWrapper image={nnnnnn} description={"Interiors"} />
-          <ImageWrapper image={o} description={"Interiors"} />
-          <ImageWrapper image={oo} description={"Interiors"} />
-          <ImageWrapper image={ooo} description={"Interiors"} />
-          <ImageWrapper image={oooo} description={"Interiors"} />
-          <ImageWrapper image={ooooo} description={"Interiors"} />
-          <ImageWrapper image={oooooo} description={"Interiors"} />
-          <ImageWrapper image={p} description={"Interiors"} />
-          <ImageWrapper image={pp} description={"Interiors"} />
-          <ImageWrapper image={ppp} description={"Interiors"} />
-          <ImageWrapper image={a1} description={"Interiors"} />
-          <ImageWrapper image={a2} description={"Interiors"} />
-          <ImageWrapper image={a3} description={"Interiors"} />
-          <ImageWrapper image={a4} description={"Interiors"} />
-          <ImageWrapper image={a5} description={"Interiors"} />
+
           </Row>
         </Grid>
       </div>

@@ -69,15 +69,9 @@ class CarouselX extends Component {
     return (
       <div>
         <Carousel>
-          <Carousel.Item>
-            <img className="img-carousel" alt="Gourmet Items" src={ad}/>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="img-carousel" alt="Gourmet Items" src={a1}/>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="img-carousel" alt="Gourmet Items" src={a2}/>
-          </Carousel.Item>
+
+
+
           <Carousel.Item>
             <img className="img-carousel" alt="Gourmet Items" src={a3}/>
           </Carousel.Item>
@@ -86,10 +80,6 @@ class CarouselX extends Component {
           </Carousel.Item>
           <Carousel.Item>
             <img className="img-carousel" alt="Gourmet Items" src={a5}/>
-          </Carousel.Item>
-
-          <Carousel.Item>
-            <img className="img-carousel" alt="Gourmet Items" src={c1014}/>
           </Carousel.Item>
           <Carousel.Item>
             <img className="img-carousel" alt="Gourmet Items" src={y1}/>
