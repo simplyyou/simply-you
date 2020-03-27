@@ -62,6 +62,19 @@ import a2 from '../images/home/a2.jpg';
 import a3 from '../images/home/a3.jpg';
 import a4 from '../images/home/a4.jpg';
 import a5 from '../images/home/a5.jpg';
+import carbout12 from '../images/home/carbout12.jpg';
+import carbout34 from '../images/home/carbout34.jpg';
+import cargifts from '../images/home/cargifts.jpg';
+import cargifts123 from '../images/home/cargifts123.jpg';
+import cargifts345 from '../images/home/cargifts345.jpg';
+import carint0 from '../images/home/carint0.jpg';
+import carint03 from '../images/home/carint03.jpg';
+import carint6 from '../images/home/carint6.jpg';
+import carint9 from '../images/home/carint9.jpg';
+import carint21 from '../images/home/carint21.jpg';
+import carint23 from '../images/home/carint23.jpg';
+import carint323 from '../images/home/carint323.jpg';
+import carint890 from '../images/home/carint890.jpg';
 
 class CarouselX extends Component {
 
@@ -73,14 +86,44 @@ class CarouselX extends Component {
 
 
           <Carousel.Item>
-            <img className="img-carousel" alt="Gourmet Items" src={a3}/>
+            <img className="img-carousel" alt="Gourmet Items" src={carbout12}/>
           </Carousel.Item>
           <Carousel.Item>
-            <img className="img-carousel" alt="Gourmet Items" src={a4}/>
+            <img className="img-carousel" alt="Gourmet Items" src={carbout34}/>
           </Carousel.Item>
           <Carousel.Item>
-            <img className="img-carousel" alt="Gourmet Items" src={a5}/>
+            <img className="img-carousel" alt="Gourmet Items" src={cargifts}/>
           </Carousel.Item>
+          <Carousel.Item>
+            <img className="img-carousel" alt="Gourmet Items" src={cargifts123}/>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="img-carousel" alt="Gourmet Items" src={cargifts345}/>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="img-carousel" alt="Gourmet Items" src={carint0}/>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="img-carousel" alt="Gourmet Items" src={carint03}/>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="img-carousel" alt="Gourmet Items" src={carint6}/>
+          </Carousel.Item>
+
+          <Carousel.Item>
+            <img className="img-carousel" alt="Gourmet Items" src={carint9}/>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="img-carousel" alt="Gourmet Items" src={carint21}/>
+          </Carousel.Item>
+
+          <Carousel.Item>
+            <img className="img-carousel" alt="Gourmet Items" src={carint323}/>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="img-carousel" alt="Gourmet Items" src={carint890}/>
+          </Carousel.Item>
+
           <Carousel.Item>
             <img className="img-carousel" alt="Gourmet Items" src={y1}/>
           </Carousel.Item>
