@@ -90,6 +90,20 @@ import g2 from '../images/gifts/g2.jpg';
 import g3 from '../images/gifts/g3.jpg';
 import gi from '../images/gifts/gi.jpg';
 import igs from '../images/gifts/igs.jpg';
+import cargifts1 from '../images/gifts/cargifts1.jpg';
+import cargifts345 from '../images/gifts/cargifts345.jpg';
+import cargifts123 from '../images/gifts/cargifts123.jpg';
+import giftsint69 from '../images/interiors/giftsint69.jpg';
+import giftsint68 from '../images/interiors/giftsint68.jpg';
+import ig1v from '../images/interiors/ig1v.jpg';
+import ig2v from '../images/interiors/ig2v.jpg';
+import i1h from '../images/interiors/i1h.jpg';
+import ig3v from '../images/interiors/ig3v.jpg';
+import ig4v from '../images/interiors/ig4v.jpg';
+import bg1v from '../images/gifts/bg1v.jpg';
+import bg2h from '../images/gifts/bg2h.jpg';
+import ig5h from '../images/interiors/ig5h.jpg';
+
 
 class Gifts extends Component {
   render() {
@@ -106,49 +120,25 @@ class Gifts extends Component {
         </div>
         <Grid className="container-fluid">
           <Row>
-            <ImageWrapper image={dog_frame} description={"242x200"} />
+            <ImageWrapper image={bg1v} description={"242x200"} />
+            <ImageWrapper image={ig3v} description={"242x200"} />
+            <ImageWrapper image={ig4v} description={"242x200"} />
+            <ImageWrapper image={ig1v} description={"242x200"} />
+            <ImageWrapper image={ig2v} description={"242x200"} />
             <ImageWrapper image={gi} description={"242x200"} />
-
             <ImageWrapper image={gifts1} description={"242x200"} />
             <ImageWrapper image={necklaces2} description={"242x200"} />
-            <ImageWrapper image={showercap} description={"242x200"} />
             <ImageWrapper image={towelz} description={"242x200"} />
             <ImageWrapper image={Jewel} description={"242x200"} />
-            <ImageWrapper image={Jewels} description={"242x200"} />
             <ImageWrapper image={Pearls} description={"242x200"} />
             <ImageWrapper image={Neckshelf} description={"242x200"} />
-            <ImageWrapper image={BagPurse} description={"242x200"} />
-            <ImageWrapper image={EndWine} description={"242x200"} />
             <ImageWrapper image={JarLantern} description={"242x200"} />
             <ImageWrapper image={Purse2} description={"242x200"} />
-            <ImageWrapper image={Rooster1} description={"242x200"} />
-            <ImageWrapper image={Doorknobsign} description={"242x200"} />
-            <ImageWrapper image={HangingLantern} description={"242x200"} />
-            <ImageWrapper image={Necklace1} description={"242x200"} />
-            <ImageWrapper image={Necklace2} description={"242x200"} />
             <ImageWrapper image={Necklace3} description={"242x200"} />
-            <ImageWrapper image={Cabinet} description={"242x200"} />
-            <ImageWrapper image={Cabinet2} description={"242x200"} />
-            <ImageWrapper image={CrossNecklace} description={"242x200"} />
-            <ImageWrapper image={small_frame} description={"242x200"} />
-            <ImageWrapper image={tea_towel_happily} description={"242x200"} />
-            <ImageWrapper image={tea_towel_looking_good} description={"242x200"} />
-            <ImageWrapper image={tea_towel_teaching} description={"242x200"} />
-            <ImageWrapper image={tea_towel_pilates} description={"242x200"} />
-            <ImageWrapper image={tea_towel_outdoorsy} description={"242x200"} />
-            <ImageWrapper image={initial_necklaces} description={"242x200"} />
-            <ImageWrapper image={g} description={"242x200"} />
-            <ImageWrapper image={gg} description={"242x200"} />
             <ImageWrapper image={ggg} description={"242x200"} />
             <ImageWrapper image={gggg} description={"242x200"} />
             <ImageWrapper image={ggggg} description={"242x200"} />
-            <ImageWrapper image={tea_towel_mon_tues} description={"242x200"} />
-            <ImageWrapper image={frames} description={"242x200"} />
-            <ImageWrapper image={CuttingBoard5} description={"242x200"} />
             <ImageWrapper image={Necklace4} description={"242x200"} />
-            <ImageWrapper image={PillowandDecanter} description={"242x200"} />
-            <ImageWrapper image={Pillows} description={"242x200"} />
-            <ImageWrapper image={Purse} description={"242x200"} />
             <ImageWrapper image={Purse3} description={"242x200"} />
             <ImageWrapper image={Purse4} description={"242x200"} />
             <ImageWrapper image={Purse5} description={"242x200"} />
@@ -158,20 +148,12 @@ class Gifts extends Component {
             <ImageWrapper image={Rings} description={"242x200"} />
             <ImageWrapper image={SimplySign} description={"242x200"} />
             <ImageWrapper image={Watch2} description={"242x200"} />
-            <ImageWrapper image={Winemakingmeawesome} description={"242x200"} />
-            <ImageWrapper image={Mirror} description={"242x200"} />
-            <ImageWrapper image={Mirror2} description={"242x200"} />
-            <ImageWrapper image={Buscardholder} description={"242x200"} />
-            <ImageWrapper image={Clock2} description={"242x200"} />
-            <ImageWrapper image={CuttingBoard1} description={"242x200"} />
-            <ImageWrapper image={cuttingboard3} description={"242x200"} />
-            <ImageWrapper image={Bracelets} description={"242x200"} />
-            <ImageWrapper image={Lotsabags} description={"242x200"} />
-            <ImageWrapper image={Followdream} description={"242x200"} />
-            <ImageWrapper image={necklaces1} description={"242x200"} />
-            <ImageWrapper image={g2} description={"242x200"} />
-            <ImageWrapper image={igs} description={"242x200"} />
-            <ImageWrapper image={g3} description={"242x200"} />
+            <ImageWrapper image={cargifts345} description={"242x200"} />
+            <ImageWrapper image={giftsint68} description={"242x200"} />
+            <ImageWrapper image={giftsint69} description={"242x200"} />
+            <ImageWrapper image={i1h} description={"242x200"} />
+            <ImageWrapper image={bg2h} description={"242x200"} />
+            <ImageWrapper image={ig5h} description={"242x200"} />
           </Row>
         </Grid>
       </div>

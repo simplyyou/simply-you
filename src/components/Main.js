@@ -8,6 +8,7 @@ import Gifts from './Gifts';
 import Services from './Services';
 import Contact from './Contact';
 import Team from './Team';
+import Products from './Products';
 import { Switch, Route } from 'react-router-dom';
 
 class Main extends Component {
@@ -24,6 +25,7 @@ class Main extends Component {
           <Route path='/seasonal' component={Seasonal}/>
           <Route path='/contact' component={Contact}/>
           <Route path='/team' component={Team}/>
+          <Route path='/products' component={Products}/>
         </Switch>
       </div>
     );

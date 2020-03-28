@@ -161,11 +161,6 @@ class Seasonal extends Component {
         </div>
         <Grid className="container-fluid">
           <Row>
-
-          <ImageWrapper image={Froggy} description={"Interiors"} />
-          <ImageWrapper image={au} description={"Interiors"} />
-          <ImageWrapper image={igs} description={"Interiors"} />
-
           </Row>
         </Grid>
       </div>

@@ -59,6 +59,18 @@ import aaaaaaa from '../images/gifts/aaaaaaa.jpg';
 import aaaaaaaa from '../images/gifts/aaaaaaaa.jpg';
 import aaaaaaaaa from '../images/gifts/aaaaaaaaa.jpg';
 import aaaaaaaaaa from '../images/gifts/aaaaaaaaaa.jpg';
+import carbout12 from '../images/gifts/carbout12.jpg';
+import carbout34 from '../images/gifts/carbout34.jpg';
+import bout68 from '../images/gifts/bout68.jpg';
+import bout69 from '../images/gifts/bout69.jpg';
+import b1v from '../images/gifts/b1v.jpg';
+import b2v from '../images/gifts/b2v.jpg';
+import b3h from '../images/gifts/b3h.jpg';
+import b4h from '../images/gifts/b4h.jpg';
+import b5v from '../images/gifts/b5v.jpg';
+import bg1v from '../images/gifts/bg1v.jpg';
+import bg2h from '../images/gifts/bg2h.jpg';
+import b60v from '../images/gifts/b60v.jpg';
 
 class Boutique extends Component {
   render() {
@@ -75,62 +87,39 @@ class Boutique extends Component {
         </div>
         <Grid className="container-fluid">
           <Row>
-            <ImageWrapper image={a} description={"242x200"} />
+            <ImageWrapper image={b60v} description={"242x200"} />
+            <ImageWrapper image={bg1v} description={"242x200"} />
+            <ImageWrapper image={b5v} description={"242x200"} />
+            <ImageWrapper image={b1v} description={"242x200"} />
+            <ImageWrapper image={b2v} description={"242x200"} />
+            <ImageWrapper image={carbout34} description={"242x200"} />
             <ImageWrapper image={aaa} description={"242x200"} />
-            <ImageWrapper image={h} description={"242x200"} />
             <ImageWrapper image={hh} description={"242x200"} />
             <ImageWrapper image={hhh} description={"242x200"} />
             <ImageWrapper image={hhhh} description={"242x200"} />
-            <ImageWrapper image={tea_towel_happily} description={"242x200"} />
             <ImageWrapper image={braceletz} description={"242x200"} />
-            <ImageWrapper image={gifts1} description={"242x200"} />
             <ImageWrapper image={necklaces2} description={"242x200"} />
             <ImageWrapper image={purses1} description={"242x200"} />
             <ImageWrapper image={purses2} description={"242x200"} />
-            <ImageWrapper image={showercap} description={"242x200"} />
-            <ImageWrapper image={towelz} description={"242x200"} />
-            <ImageWrapper image={another} description={"242x200"} />
-            <ImageWrapper image={bag5} description={"242x200"} />
-            <ImageWrapper image={bag6} description={"242x200"} />
-            <ImageWrapper image={bag9} description={"242x200"} />
-            <ImageWrapper image={beads} description={"242x200"} />
             <ImageWrapper image={morebeads} description={"242x200"} />
             <ImageWrapper image={evenmore} description={"242x200"} />
             <ImageWrapper image={still} description={"242x200"} />
             <ImageWrapper image={Jewel} description={"242x200"} />
-            <ImageWrapper image={Jewels} description={"242x200"} />
             <ImageWrapper image={Pearls} description={"242x200"} />
             <ImageWrapper image={Neckshelf} description={"242x200"} />
-            <ImageWrapper image={Ropebags} description={"242x200"} />
-            <ImageWrapper image={BagPurse} description={"242x200"} />
-            <ImageWrapper image={EndWine} description={"242x200"} />
-            <ImageWrapper image={Purses} description={"242x200"} />
-            <ImageWrapper image={FriendsTowel} description={"242x200"} />
-            <ImageWrapper image={tea_towel_teaching} description={"242x200"} />
-            <ImageWrapper image={tea_towel_pilates} description={"242x200"} />
-            <ImageWrapper image={tea_towel_outdoorsy} description={"242x200"} />
-            <ImageWrapper image={tea_towel_looking_good} description={"242x200"} />
-            <ImageWrapper image={dog_frame} description={"242x200"} />
-            <ImageWrapper image={small_frame} description={"242x200"} />
-            <ImageWrapper image={initial_necklaces} description={"242x200"} />
-            <ImageWrapper image={tea_towel_mon_tues} description={"242x200"} />
-            <ImageWrapper image={hhhhh} description={"242x200"} />
             <ImageWrapper image={hhhhhh} description={"242x200"} />
             <ImageWrapper image={hhhhhhh} description={"242x200"} />
-            <ImageWrapper image={frames} description={"242x200"} />
-            <ImageWrapper image={morebags} description={"242x200"} />
-            <ImageWrapper image={Lotsabags} description={"242x200"} />
-            <ImageWrapper image={bag7} description={"242x200"} />
-            <ImageWrapper image={bag8} description={"242x200"} />
-            <ImageWrapper image={necklaces1} description={"242x200"} />
             <ImageWrapper image={aa} description={"242x200"} />
             <ImageWrapper image={aaaa} description={"242x200"} />
             <ImageWrapper image={aaaaa} description={"242x200"} />
             <ImageWrapper image={aaaaaa} description={"242x200"} />
-            <ImageWrapper image={aaaaaaa} description={"242x200"} />
-            <ImageWrapper image={aaaaaaaa} description={"242x200"} />
             <ImageWrapper image={aaaaaaaaa} description={"242x200"} />
-            <ImageWrapper image={aaaaaaaaaa} description={"242x200"} />
+            <ImageWrapper image={carbout12} description={"242x200"} />
+            <ImageWrapper image={bout68} description={"242x200"} />
+            <ImageWrapper image={bout69} description={"242x200"} />
+            <ImageWrapper image={b3h} description={"242x200"} />
+            <ImageWrapper image={b4h} description={"242x200"} />
+            <ImageWrapper image={bg2h} description={"242x200"} />
           </Row>
         </Grid>
       </div>

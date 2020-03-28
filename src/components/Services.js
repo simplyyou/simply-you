@@ -18,11 +18,11 @@ class Services extends Component {
           <tbody>
             <tr>
               <td>Women's haircut and style</td>
-              <td>Starting at $30</td>
+              <td>Starting at $35</td>
             </tr>
             <tr>
               <td>Men's haircut</td>
-              <td>Starting at $18</td>
+              <td>Starting at $20</td>
             </tr>
             <tr>
               <td>Children's haircut</td>
@@ -38,15 +38,15 @@ class Services extends Component {
             </tr>
             <tr>
               <td>Hair coloring</td>
-              <td>Starting at $57</td>
+              <td>Starting at $60</td>
             </tr>
             <tr>
               <td>Partial foil</td>
-              <td>Starting at $62</td>
+              <td>Starting at $65</td>
             </tr>
             <tr>
               <td>Full foil</td>
-              <td>Starting at $72</td>
+              <td>Starting at $75</td>
             </tr>
             <tr>
               <td>Highlighting</td>
