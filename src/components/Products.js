@@ -3,7 +3,7 @@ import {Helmet} from 'react-helmet';
 import { Grid, Row } from 'react-bootstrap';
 import ImageWrapper from './ImageWrapper';
 import redken from '../images/products/redken.jpg';
-import pureology from '../images/products/pureology1.jpg';
+import pureology from '../images/products/pureologys.png';
 
 class Products extends Component {
   render() {
