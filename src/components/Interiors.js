@@ -271,19 +271,15 @@ class Interiors extends Component {
             <ImageWrapper image={i42} description={"Interiors"} />
             <ImageWrapper image={i43} description={"Interiors"} />
             <ImageWrapper image={i44} description={"Interiors"} />
-            <ImageWrapper image={i45} description={"Interiors"} />
             <ImageWrapper image={i46} description={"Interiors"} />
             <ImageWrapper image={ig3v} description={"Interiors"} />
-            <ImageWrapper image={ig4v} description={"Interiors"} />
             <ImageWrapper image={i22v} description={"Interiors"} />
             <ImageWrapper image={i23v} description={"Interiors"} />
             <ImageWrapper image={i24v} description={"Interiors"} />
-            <ImageWrapper image={i21v} description={"Interiors"} />
             <ImageWrapper image={ig1v} description={"Interiors"} />
             <ImageWrapper image={ig2v} description={"Interiors"} />
             <ImageWrapper image={i1v} description={"Interiors"} />
             <ImageWrapper image={i2v} description={"Interiors"} />
-            <ImageWrapper image={i3v} description={"Interiors"} />
             <ImageWrapper image={i4v} description={"Interiors"} />
             <ImageWrapper image={i5v} description={"Interiors"} />
             <ImageWrapper image={i6v} description={"Interiors"} />
@@ -294,7 +290,6 @@ class Interiors extends Component {
             <ImageWrapper image={i11v} description={"Interiors"} />
             <ImageWrapper image={i12v} description={"Interiors"} />
             <ImageWrapper image={carint6} description={"Interiors"} />
-            <ImageWrapper image={carint23} description={"Interiors"} />
             <ImageWrapper image={carint890} description={"Interiors"} />
             <ImageWrapper image={carint323} description={"Interiors"} />
             <ImageWrapper image={t1} description={"Interiors"} />
@@ -312,7 +307,6 @@ class Interiors extends Component {
             <ImageWrapper image={p} description={"Interiors"} />
             <ImageWrapper image={pp} description={"Interiors"} />
             <ImageWrapper image={ppppp} description={"Interiors"} />
-            <ImageWrapper image={llll} description={"Interiors"} />
             <ImageWrapper image={lllll} description={"Interiors"} />
             <ImageWrapper image={llllll} description={"Interiors"} />
             <ImageWrapper image={l} description={"Interiors"} />
@@ -330,7 +324,6 @@ class Interiors extends Component {
             <ImageWrapper image={shoreshells} description={"Interiors"} />
             <ImageWrapper image={tweety} description={"Interiors"} />
             <ImageWrapper image={heartstone} description={"Interiors"} />
-            <ImageWrapper image={crochet} description={"Interiors"} />
             <ImageWrapper image={morelights} description={"Interiors"} />
             <ImageWrapper image={ropeholes} description={"Interiors"} />
             <ImageWrapper image={smalllight} description={"Interiors"} />
@@ -344,7 +337,6 @@ class Interiors extends Component {
             <ImageWrapper image={kk} description={"Interiors"} />
             <ImageWrapper image={kkk} description={"Interiors"} />
             <ImageWrapper image={kkkkk} description={"Interiors"} />
-            <ImageWrapper image={kkkkkk} description={"Interiors"} />
             <ImageWrapper image={pi} description={"Interiors"} />
             <ImageWrapper image={ii} description={"Interiors"} />
             <ImageWrapper image={pppp} description={"Interiors"} />
@@ -366,9 +358,6 @@ class Interiors extends Component {
             <ImageWrapper image={carint03} description={"Interiors"} />
             <ImageWrapper image={carint9} description={"Interiors"} />
             <ImageWrapper image={carint21} description={"Interiors"} />
-            <ImageWrapper image={giftsint68} description={"Interiors"} />
-            <ImageWrapper image={giftsint69} description={"Interiors"} />
-            <ImageWrapper image={i1h} description={"Interiors"} />
             <ImageWrapper image={i3h} description={"Interiors"} />
             <ImageWrapper image={i12h} description={"Interiors"} />
             <ImageWrapper image={i13h} description={"Interiors"} />
@@ -387,6 +376,7 @@ class Interiors extends Component {
             <ImageWrapper image={i35} description={"Interiors"} />
             <ImageWrapper image={i36} description={"Interiors"} />
             <ImageWrapper image={ig5h} description={"Interiors"} />
+
           </Row>
         </Grid>
       </div>

@@ -127,33 +127,20 @@ class Gifts extends Component {
             <ImageWrapper image={ig2v} description={"242x200"} />
             <ImageWrapper image={gi} description={"242x200"} />
             <ImageWrapper image={gifts1} description={"242x200"} />
-            <ImageWrapper image={necklaces2} description={"242x200"} />
             <ImageWrapper image={towelz} description={"242x200"} />
-            <ImageWrapper image={Jewel} description={"242x200"} />
-            <ImageWrapper image={Pearls} description={"242x200"} />
-            <ImageWrapper image={Neckshelf} description={"242x200"} />
             <ImageWrapper image={JarLantern} description={"242x200"} />
             <ImageWrapper image={Purse2} description={"242x200"} />
-            <ImageWrapper image={Necklace3} description={"242x200"} />
             <ImageWrapper image={ggg} description={"242x200"} />
             <ImageWrapper image={gggg} description={"242x200"} />
             <ImageWrapper image={ggggg} description={"242x200"} />
-            <ImageWrapper image={Necklace4} description={"242x200"} />
             <ImageWrapper image={Purse3} description={"242x200"} />
             <ImageWrapper image={Purse4} description={"242x200"} />
             <ImageWrapper image={Purse5} description={"242x200"} />
             <ImageWrapper image={Purse6} description={"242x200"} />
             <ImageWrapper image={Purse7} description={"242x200"} />
-            <ImageWrapper image={Ringb} description={"242x200"} />
-            <ImageWrapper image={Rings} description={"242x200"} />
             <ImageWrapper image={SimplySign} description={"242x200"} />
-            <ImageWrapper image={Watch2} description={"242x200"} />
-            <ImageWrapper image={cargifts345} description={"242x200"} />
-            <ImageWrapper image={giftsint68} description={"242x200"} />
-            <ImageWrapper image={giftsint69} description={"242x200"} />
             <ImageWrapper image={i1h} description={"242x200"} />
             <ImageWrapper image={bg2h} description={"242x200"} />
-            <ImageWrapper image={ig5h} description={"242x200"} />
           </Row>
         </Grid>
       </div>

@@ -71,6 +71,9 @@ import b5v from '../images/gifts/b5v.jpg';
 import bg1v from '../images/gifts/bg1v.jpg';
 import bg2h from '../images/gifts/bg2h.jpg';
 import b60v from '../images/gifts/b60v.jpg';
+import Rings from '../images/gifts/Rings.jpg';
+import Ringb from '../images/gifts/Ringb.jpg';
+import Watch2 from '../images/gifts/Watch2.jpg';
 
 class Boutique extends Component {
   render() {
@@ -120,6 +123,10 @@ class Boutique extends Component {
             <ImageWrapper image={b3h} description={"242x200"} />
             <ImageWrapper image={b4h} description={"242x200"} />
             <ImageWrapper image={bg2h} description={"242x200"} />
+            <ImageWrapper image={Watch2} description={"242x200"} />
+            <ImageWrapper image={Ringb} description={"242x200"} />
+            <ImageWrapper image={Rings} description={"242x200"} />
+
           </Row>
         </Grid>
       </div>
