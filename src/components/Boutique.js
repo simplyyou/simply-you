@@ -74,6 +74,19 @@ import b60v from '../images/gifts/b60v.jpg';
 import Rings from '../images/gifts/Rings.jpg';
 import Ringb from '../images/gifts/Ringb.jpg';
 import Watch2 from '../images/gifts/Watch2.jpg';
+import bo1 from '../images/gifts/bo1.jpg';
+import bo2 from '../images/gifts/bo2.jpg';
+import bo3 from '../images/gifts/bo3.jpg';
+import bo4 from '../images/gifts/bo4.jpg';
+import bo5 from '../images/gifts/bo5.jpg';
+import bo6 from '../images/gifts/bo6.jpg';
+import bo7 from '../images/gifts/bo7.jpg';
+import bo8 from '../images/gifts/bo8.jpg';
+import bo9 from '../images/gifts/bo9.jpg';
+import bo10 from '../images/gifts/bo10.jpg';
+import bo11 from '../images/gifts/bo11.jpg';
+import bo12 from '../images/gifts/bo12.jpg';
+import bo13 from '../images/gifts/bo13.jpg';
 
 class Boutique extends Component {
   render() {
@@ -90,6 +103,16 @@ class Boutique extends Component {
         </div>
         <Grid className="container-fluid">
           <Row>
+            <ImageWrapper image={bo4} description={"242x200"} />
+            <ImageWrapper image={bo5} description={"242x200"} />
+            <ImageWrapper image={bo6} description={"242x200"} />
+            <ImageWrapper image={bo7} description={"242x200"} />
+            <ImageWrapper image={bo8} description={"242x200"} />
+            <ImageWrapper image={bo9} description={"242x200"} />
+            <ImageWrapper image={bo10} description={"242x200"} />
+            <ImageWrapper image={bo11} description={"242x200"} />
+            <ImageWrapper image={bo12} description={"242x200"} />
+            <ImageWrapper image={bo13} description={"242x200"} />
             <ImageWrapper image={b60v} description={"242x200"} />
             <ImageWrapper image={bg1v} description={"242x200"} />
             <ImageWrapper image={b5v} description={"242x200"} />
@@ -126,6 +149,9 @@ class Boutique extends Component {
             <ImageWrapper image={Watch2} description={"242x200"} />
             <ImageWrapper image={Ringb} description={"242x200"} />
             <ImageWrapper image={Rings} description={"242x200"} />
+            <ImageWrapper image={bo1} description={"242x200"} />
+            <ImageWrapper image={bo2} description={"242x200"} />
+            <ImageWrapper image={bo3} description={"242x200"} />
 
           </Row>
         </Grid>

@@ -245,6 +245,21 @@ import i44 from '../images/interiors/i44.jpg';
 import i45 from '../images/interiors/i45.jpg';
 import i46 from '../images/interiors/i46.jpg';
 import ig5h from '../images/interiors/ig5h.jpg';
+import in1 from '../images/interiors/in1.jpg';
+import in2 from '../images/interiors/in2.jpg';
+import in3 from '../images/interiors/in3.jpg';
+import in4 from '../images/interiors/in4.jpg';
+import in5 from '../images/interiors/in5.jpg';
+import in6 from '../images/interiors/in6.jpg';
+import in7 from '../images/interiors/in7.jpg';
+import in8 from '../images/interiors/in8.jpg';
+import in9 from '../images/interiors/in9.jpg';
+import in10 from '../images/interiors/in10.jpg';
+import in11 from '../images/interiors/in11.jpg';
+import in12 from '../images/interiors/in12.jpg';
+import in13 from '../images/interiors/in13.jpg';
+import in14 from '../images/interiors/in14.jpg';
+import in15 from '../images/interiors/in15.jpg';
 
 
 class Interiors extends Component {
@@ -262,7 +277,11 @@ class Interiors extends Component {
         </div>
         <Grid className="container-fluid">
           <Row>
-
+            <ImageWrapper image={in11} description={"Interiors"} />
+            <ImageWrapper image={in12} description={"Interiors"} />
+            <ImageWrapper image={in13} description={"Interiors"} />
+            <ImageWrapper image={in14} description={"Interiors"} />
+            <ImageWrapper image={in15} description={"Interiors"} />
             <ImageWrapper image={i37} description={"Interiors"} />
             <ImageWrapper image={i38} description={"Interiors"} />
             <ImageWrapper image={i39} description={"Interiors"} />
@@ -376,7 +395,16 @@ class Interiors extends Component {
             <ImageWrapper image={i35} description={"Interiors"} />
             <ImageWrapper image={i36} description={"Interiors"} />
             <ImageWrapper image={ig5h} description={"Interiors"} />
-
+            <ImageWrapper image={in1} description={"Interiors"} />
+            <ImageWrapper image={in2} description={"Interiors"} />
+            <ImageWrapper image={in3} description={"Interiors"} />
+            <ImageWrapper image={in4} description={"Interiors"} />
+            <ImageWrapper image={in5} description={"Interiors"} />
+            <ImageWrapper image={in6} description={"Interiors"} />
+            <ImageWrapper image={in7} description={"Interiors"} />
+            <ImageWrapper image={in8} description={"Interiors"} />
+            <ImageWrapper image={in9} description={"Interiors"} />
+            <ImageWrapper image={in10} description={"Interiors"} />
           </Row>
         </Grid>
       </div>
