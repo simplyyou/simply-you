@@ -141,8 +141,6 @@ class Boutique extends Component {
             <ImageWrapper image={aaaaaa} description={"242x200"} />
             <ImageWrapper image={aaaaaaaaa} description={"242x200"} />
             <ImageWrapper image={carbout12} description={"242x200"} />
-            <ImageWrapper image={bout68} description={"242x200"} />
-            <ImageWrapper image={bout69} description={"242x200"} />
             <ImageWrapper image={b3h} description={"242x200"} />
             <ImageWrapper image={b4h} description={"242x200"} />
             <ImageWrapper image={bg2h} description={"242x200"} />
